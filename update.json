@@ -1,0 +1,37 @@
+{
+	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
+	"promos": {
+		"1.12.2-latest": "2.8.5",
+		"1.12.2-recommended": "2.8.4",
+		"1.12.1-latest": "2.8.5",
+		"1.12.1-recommended": "2.8.4",
+		"1.11.2-latest": "2.1.4",
+		"1.11.2-recommended": "2.1.4",
+		"1.10.2-latest": "2.1.4",
+		"1.10.2-recommended": "2.1.4",
+		"1.9.4-latest": "1.4.1",
+		"1.9.4-recommended": "1.4.1",
+		"1.8.9-latest": "1.4.1",
+		"1.8.9-recommended": "1.4.1"
+	},
+	"1.12.2": {
+		"2.8.5": "auto-equip for RPG Inventory & Aether Legacy, souls don't require thundering anymore to appear",
+		"2.8.4": "fix Sponge preventing to catch techguns ammos"
+	},
+	"1.12.1": {
+		"2.8.5": "auto-equip for RPG Inventory & Aether Legacy, souls don't require thundering anymore to appear",
+		"2.8.4": "fix Sponge preventing to catch techguns ammos"
+	},
+	"1.11.2": {
+		"2.1.4": "current last version for 1.11.2"
+	},
+	"1.10.2": {
+		"2.1.4": "current last version for 1.10.2"
+	},
+	"1.9.4": {
+		"1.4.1": "current last version for 1.9.4"
+	},
+	"1.8.9": {
+		"1.4.1": "current last version for 1.8.9"
+	}
+}
