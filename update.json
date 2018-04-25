@@ -5,8 +5,8 @@
 		"1.12.2-recommended": "2.9.0",
 		"1.12.1-latest": "2.9.0",
 		"1.12.1-recommended": "2.9.0",
-		"1.11.2-latest": "2.9.0",
-		"1.11.2-recommended": "2.9.0",
+		"1.11.2-latest": "2.9.0.1",
+		"1.11.2-recommended": "2.9.0.1",
 		"1.10.2-latest": "2.9.0",
 		"1.10.2-recommended": "2.9.0",
 		"1.9.4-latest": "1.4.1",
@@ -27,6 +27,7 @@
 		"2.8.4": "fix Sponge preventing to catch techguns ammos"
 	},
 	"1.11.2": {
+		"2.9.0.1": "fix the achievements about prevent death with voodoo poppets & use some magic scrolls",
 		"2.9.0": "backport from the 1.12.2 version, including all the changes & compatibilities"
 	},
 	"1.10.2": {
