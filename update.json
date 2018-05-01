@@ -1,9 +1,9 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "2.9.0",
+		"1.12.2-latest": "2.9.1",
 		"1.12.2-recommended": "2.9.0",
-		"1.12.1-latest": "2.9.0",
+		"1.12.1-latest": "2.9.1",
 		"1.12.1-recommended": "2.9.0",
 		"1.11.2-latest": "2.9.0.1",
 		"1.11.2-recommended": "2.9.0.1",
@@ -15,12 +15,14 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"2.9.1": "auto-equip for The Betweenlands",
 		"2.9.0": "voodoo poppets & new scrolls",
 		"2.8.7": "improvments (see the changelog)",
 		"2.8.5": "auto-equip for RPG Inventory & Aether Legacy, souls don't require thundering anymore to appear",
 		"2.8.4": "fix Sponge preventing to catch techguns ammos"
 	},
 	"1.12.1": {
+		"2.9.1": "auto-equip for The Betweenlands",
 		"2.9.0": "voodoo poppets & new scrolls",
 		"2.8.7": "improvments (see the changelog)",
 		"2.8.5": "auto-equip for RPG Inventory & Aether Legacy, souls don't require thundering anymore to appear",
