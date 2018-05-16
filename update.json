@@ -7,8 +7,8 @@
 		"1.12.1-recommended": "2.9.4",
 		"1.11.2-latest": "2.9.0.1",
 		"1.11.2-recommended": "2.9.0.1",
-		"1.10.2-latest": "2.9.0",
-		"1.10.2-recommended": "2.9.0",
+		"1.10.2-latest": "2.9.4",
+		"1.10.2-recommended": "2.9.4",
 		"1.9.4-latest": "1.4.1",
 		"1.9.4-recommended": "1.4.1",
 		"1.8.9-latest": "1.4.1",
@@ -39,6 +39,7 @@
 		"2.9.0": "backport from the 1.12.2 version, including all the changes & compatibilities"
 	},
 	"1.10.2": {
+		"2.9.4": "book of disenchantment, auto-respawn, backup, auto-equip BetweenLands & skip anti griefing mods",
 		"2.9.0": "backport from the 1.12.2 version, including all the changes & compatibilities"
 	},
 	"1.9.4": {
