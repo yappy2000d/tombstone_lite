@@ -1,10 +1,10 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "2.9.4",
-		"1.12.2-recommended": "2.9.4",
-		"1.12.1-latest": "2.9.4",
-		"1.12.1-recommended": "2.9.4",
+		"1.12.2-latest": "2.9.5",
+		"1.12.2-recommended": "2.9.5",
+		"1.12.1-latest": "2.9.5",
+		"1.12.1-recommended": "2.9.5",
 		"1.11.2-latest": "2.9.0.1",
 		"1.11.2-recommended": "2.9.0.1",
 		"1.10.2-latest": "2.9.4",
@@ -15,6 +15,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"2.9.5": "true sight, translation, activate grave by sneaking, graves always drop with set air",
 		"2.9.4": "force grave to spawn with any anti-griefing mod, Book Of Disenchantment, auto-respawn",
 		"2.9.3": "new command to backup and rollback players",
 		"2.9.2": "remove support for FTB, add checks for compatibilities",
@@ -25,6 +26,7 @@
 		"2.8.4": "fix Sponge preventing to catch techguns ammos"
 	},
 	"1.12.1": {
+		"2.9.5": "true sight, translation, activate grave by sneaking, graves always drop with set air",
 		"2.9.4": "force grave to spawn with any anti-griefing mod, Book Of Disenchantment, auto-respawn",
 		"2.9.3": "new command to backup and rollback players",
 		"2.9.2": "remove support for FTB, add checks for compatibilities",
