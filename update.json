@@ -1,10 +1,10 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "2.9.8",
-		"1.12.2-recommended": "2.9.8",
-		"1.12.1-latest": "2.9.8",
-		"1.12.1-recommended": "2.9.8",
+		"1.12.2-latest": "2.9.9",
+		"1.12.2-recommended": "2.9.9",
+		"1.12.1-latest": "2.9.9",
+		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
 		"1.11.2-recommended": "2.9.0.1",
 		"1.10.2-latest": "2.9.4",
@@ -15,6 +15,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"2.9.9": "only fix and change the grave ground with vanilla texture",
 		"2.9.8": "fix a wrong import",
 		"2.9.7": "fix for lost tablets when some biomes aren't present",
 		"2.9.6": "changes on magic items, on the chance to have a soul and on the command tbteleportdiscovery",
@@ -29,6 +30,7 @@
 		"2.8.4": "fix Sponge preventing to catch techguns ammos"
 	},
 	"1.12.1": {
+		"2.9.9": "only fix and change the grave ground with vanilla texture",
 		"2.9.8": "fix a wrong import",
 		"2.9.7": "fix for lost tablets when some biomes aren't present",
 		"2.9.6": "changes on magic items, on the chance to have a soul and on the command tbteleportdiscovery",
