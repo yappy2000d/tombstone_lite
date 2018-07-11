@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "2.9.10",
-		"1.12.2-recommended": "2.9.10",
+		"1.12.2-latest": "2.9.11",
+		"1.12.2-recommended": "2.9.11",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -15,7 +15,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
-		"2.9.10": "prevents #16(grave could rotate after receiving a soul",
+		"2.9.11": "prevents #16(grave could rotate after receiving a soul",
 		"2.9.9": "only fix and change the grave ground with vanilla texture",
 		"2.9.8": "fix a wrong import",
 		"2.9.7": "fix for lost tablets when some biomes aren't present",
