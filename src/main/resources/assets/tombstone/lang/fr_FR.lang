@@ -148,6 +148,7 @@ tombstone.message.disenchantment.success=Le livre a dépouillé l'objet de tous 
 tombstone.message.disenchantment.failed=Tu as besoin d'un objet enchanté dans ta main gauche
 # Général
 tombstone.config_cat.client=Général
+tombstone.config_cat.client.tooltip=Options liées à la mort du joueur et plus
 tombstone.config.handle_player_death.tooltip=Gère la mort du joueur
 tombstone.config.handle_player_xp.tooltip=Gère l'expérience du joueur
 tombstone.config.restore_effects_on_death.tooltip=Restaure les effets bénéfiques après la mort d'un joueur
@@ -169,8 +170,15 @@ tombstone.config.prevent_death_outside_world.tooltip=Empêche de mourir hors des
 tombstone.config.recovery_player_enable.tooltip=Permet de sauvegarder automatiquement les joueurs
 tombstone.config.recovery_player_timer.tooltip=Temps en minutes entre les sauvegardes des joueurs
 tombstone.config.graves_by_pass_griefing_rules.tooltip=Les Tombes sont autorisées à contourner les règles anti-griefing
+tombstone.config.blacklist_effects=Effets non conservés
+tombstone.config.blacklist_effects.tooltip=Effets qui ne sont jamais conservés après la mort
+tombstone.config.whitelist_blocks=Blocs remplacables
+tombstone.config.whitelist_blocks.tooltip=Blocs qui peuvent être remplacés par les tombes
+tombstone.config.no_grave_location=Zone Sans Tombe
+tombstone.config.no_grave_location.tooltip=Zone où les tombes ne peuvent pas apparaître
 # Client
 tombstone.config_cat.client=Client
+tombstone.config_cat.client.tooltip=Options personnelles pouvant être modifiées même sur le serveur
 tombstone.config.equip_elytra_in_priority.tooltip=Equipe les élytres en priorité quand tu récupères tes objets perdus
 tombstone.config.favorite_grave.tooltip=Tombe préférée
 tombstone.config.highlight.tooltip=Illumine la tombe de loin en tenant la clé
@@ -184,6 +192,7 @@ tombstone.config.skip_respawn_screen.tooltip=Passe l'Ecran de Respawn
 tombstone.config.show_enhanced_tooltips.tooltip=Montre toutes les infos dans l'info-bulle des objets
 # Tombe Décorative
 tombstone.config_cat.decorative_grave=Tombe Décorative
+tombstone.config_cat.decorative_grave.tooltip=Pour les paramètres relatifs aux tombes décoratives et aux objets magiques
 tombstone.config.chance_soul.tooltip=Chance sur 1000 pour les tombes d'avoir une âme
 tombstone.config.chance_grave_dust.tooltip=Chance sur 1000 pour les mort-vivants de lâcher une Poussière de Tombe à leur mort
 tombstone.config.undead_can_drop_skull.tooltip=Permet aux mort-vivants d'avoir une infime chance de lâcher un crâne à leur mort
@@ -198,6 +207,7 @@ tombstone.config.restrict_shadow_step_to_player.tooltip=Restraint l'effet de Pas
 tombstone.config.enable_enchantment_soulbound.tooltip=Active l'enchantement Liage d'Âme
 # Siège de Village
 tombstone.config_cat.village_siege=Siège de Village
+tombstone.config_cat.village_siege.tooltip=Permet de définir les conditions pour qu'un siège de village débute
 tombstone.config.handle_village_siege.tooltip=Permet de gérer les sièges de village
 tombstone.config.disable_nether_end_siege_tick.tooltip=Désactive le tick de siège de village dans le Nether et l'End
 tombstone.config.allow_creative_players_for_siege.tooltip=Autorise d'utiliser la position des joueurs créatifs pour définir l'endroit du siège
@@ -216,6 +226,8 @@ tombstone.config.allow_aether_legacy_autoEquip.tooltip=Permet de rééquiper l'i
 tombstone.config.allow_rpg_inventory_autoEquip.tooltip=Permet de rééquiper l'inventaire de RPG Inventory
 tombstone.config.allow_the_between_lands_autoEquip.tooltip=Permet de rééquiper l'inventaire de The BetweenLands
 tombstone.config.support_wearable_backpacks.tooltip=Permet de déplacer le sac-à-dos près de la tombe
+tombstone.config.keep_cosmetic_armor.tooltip=Garde les armures cosmétiques quand vous mourez
+# Avancements
 advancement.tutorial.title=Tutoriel Tombstone
 advancement.tutorial.desc=Tutoriel pour te guider dans la découverte de Tombstone
 advancement.first_grave.title=Votre Première Tombe !

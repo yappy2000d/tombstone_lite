@@ -148,6 +148,7 @@ tombstone.message.disenchantment.success=The book has stripped the item of all i
 tombstone.message.disenchantment.failed=You need an enchanted item in your offhand
 # General
 tombstone.config_cat.general=General
+tombstone.config_cat.general.tooltip=Options related to the player death and more
 tombstone.config.handle_player_death.tooltip=Handles the player's death
 tombstone.config.handle_player_xp.tooltip=Handles the player's experience
 tombstone.config.restore_effects_on_death.tooltip=Restores the beneficial effects after a player's death
@@ -169,8 +170,15 @@ tombstone.config.prevent_death_outside_world.tooltip=Prevents to die out of worl
 tombstone.config.recovery_player_enable.tooltip=Enables to backup automatically players
 tombstone.config.recovery_player_timer.tooltip=Time in minutes between players' backups
 tombstone.config.graves_by_pass_griefing_rules.tooltip=Graves are allowed to bypass anti-griefing rules
+tombstone.config.blacklist_effects=Unpreserved Effects
+tombstone.config.blacklist_effects.tooltip=Effects that are never preserved after death
+tombstone.config.whitelist_blocks=Replaceable blocks
+tombstone.config.whitelist_blocks.tooltip=Blocks that can be replaced by graves
+tombstone.config.no_grave_location=No Grave Location
+tombstone.config.no_grave_location.tooltip=Areas where graves can't appear
 # Client
 tombstone.config_cat.client=Client
+tombstone.config_cat.client.tooltip=Personal Options that can be edited even on server
 tombstone.config.equip_elytra_in_priority.tooltip=Equips elytra in priority when recovering your lost items
 tombstone.config.favorite_grave.tooltip.tooltip=Favorite grave
 tombstone.config.highlight.tooltip=Highlights the tomb from far when holding the key
@@ -184,6 +192,7 @@ tombstone.config.skip_respawn_screen.tooltip=Skips the Respawn Screen
 tombstone.config.show_enhanced_tooltips.tooltip=Shows all the infos in the tooltip of items
 # Decorative Grave
 tombstone.config_cat.decorative_grave=Decorative Grave
+tombstone.config_cat.decorative_grave.tooltip=For settings related to decorative tombs and magic items
 tombstone.config.chance_soul.tooltip=Chance on 1000 for graves to get a soul
 tombstone.config.chance_grave_dust.tooltip=Chance on 1000 for undead mobs to drop Grave's Dust 
 tombstone.config.undead_can_drop_skull.tooltip=Allows the undeads to have a low chance to drop their skull
@@ -198,6 +207,7 @@ tombstone.config.restrict_shadow_step_to_player.tooltip=Restricts the effect of 
 tombstone.config.enable_enchantment_soulbound.tooltip=Enables the enchantment Soulbound
 # Village Siege
 tombstone.config_cat.village_siege=Village Siege
+tombstone.config_cat.village_siege.tooltip=Allows to define the conditions for a village siege to begin
 tombstone.config.handle_village_siege.tooltip=Allows to handle village sieges
 tombstone.config.disable_nether_end_siege_tick.tooltip=Disables the tick for village siege in Nether and End
 tombstone.config.allow_creative_players_for_siege.tooltip=Allows to use the positions of creative players to define the siege location
@@ -216,6 +226,8 @@ tombstone.config.allow_aether_legacy_autoEquip.tooltip=Allows to re-equip Aether
 tombstone.config.allow_rpg_inventory_autoEquip.tooltip=Allows to re-equip RPG Inventory slots
 tombstone.config.allow_the_between_lands_autoEquip.tooltip=Allows to re-equip The BetweenLands slots
 tombstone.config.support_wearable_backpacks.tooltip=Allows to move the backpack close to the grave
+tombstone.config.keep_cosmetic_armor.tooltip=Keeps the cosmetic armor when you die
+# Advancements
 advancement.tutorial.title=Tombstone Tutorial
 advancement.tutorial.desc=Tutorial to guide you in your discovery of Tombstone
 advancement.first_grave.title=Your First Grave
