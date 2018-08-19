@@ -2,7 +2,7 @@
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
 		"1.12.2-latest": "3.0.1",
-		"1.12.2-recommended": "2.10.3",
+		"1.12.2-recommended": "2.10.4",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -16,6 +16,7 @@
 	},
 	"1.12.2": {
 		"3.0.1": "beta that introduces the knowledge of death",
+		"2.10.4": "compat for ice & fire, fix for ghostly shape/diversion",
 		"2.10.3": "fix #19 (related to soul receptacle)",
 		"2.10.2": "config options to disable some magic items & fix the namespace for tileentities",
 		"2.10.1": "config with all options & several categories, and compat for Cosmetic Armor",
