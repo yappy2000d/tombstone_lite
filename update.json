@@ -1,7 +1,7 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "3.0.1",
+		"1.12.2-latest": "3.0.2",
 		"1.12.2-recommended": "2.10.4",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
@@ -15,41 +15,16 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"3.0.2": "ankh of pray, casting animation & advancement rewards in knowledge points",
 		"3.0.1": "beta that introduces the knowledge of death",
 		"2.10.4": "compat for ice & fire, fix for ghostly shape/diversion",
 		"2.10.3": "fix #19 (related to soul receptacle)",
 		"2.10.2": "config options to disable some magic items & fix the namespace for tileentities",
 		"2.10.1": "config with all options & several categories, and compat for Cosmetic Armor",
-		"2.10.0": "fix #17 (related to xp & enchant table)",
-		"2.9.11": "prevents #16(grave could rotate after receiving a soul",
-		"2.9.9": "only fix and change the grave ground with vanilla texture",
-		"2.9.8": "fix a wrong import",
-		"2.9.7": "fix for lost tablets when some biomes aren't present",
-		"2.9.6": "changes on magic items, on the chance to have a soul and on the command tbteleportdiscovery",
-		"2.9.5": "true sight, translation, activate grave by sneaking, graves always drop with set air",
-		"2.9.4": "force grave to spawn with any anti-griefing mod, Book Of Disenchantment, auto-respawn",
-		"2.9.3": "new command to backup and rollback players",
-		"2.9.2": "remove support for FTB, add checks for compatibilities",
-		"2.9.1": "auto-equip for The Betweenlands",
-		"2.9.0": "voodoo poppets & new scrolls",
-		"2.8.7": "improvments (see the changelog)",
-		"2.8.5": "auto-equip for RPG Inventory & Aether Legacy, souls don't require thundering anymore to appear",
-		"2.8.4": "fix Sponge preventing to catch techguns ammos"
+		"2.10.0": "fix #17 (related to xp & enchant table)"
 	},
 	"1.12.1": {
-		"2.9.9": "only fix and change the grave ground with vanilla texture",
-		"2.9.8": "fix a wrong import",
-		"2.9.7": "fix for lost tablets when some biomes aren't present",
-		"2.9.6": "changes on magic items, on the chance to have a soul and on the command tbteleportdiscovery",
-		"2.9.5": "true sight, translation, activate grave by sneaking, graves always drop with set air",
-		"2.9.4": "force grave to spawn with any anti-griefing mod, Book Of Disenchantment, auto-respawn",
-		"2.9.3": "new command to backup and rollback players",
-		"2.9.2": "remove support for FTB, add checks for compatibilities",
-		"2.9.1": "auto-equip for The Betweenlands",
-		"2.9.0": "voodoo poppets & new scrolls",
-		"2.8.7": "improvments (see the changelog)",
-		"2.8.5": "auto-equip for RPG Inventory & Aether Legacy, souls don't require thundering anymore to appear",
-		"2.8.4": "fix Sponge preventing to catch techguns ammos"
+		"2.9.9": "only fix and change the grave ground with vanilla texture"
 	},
 	"1.11.2": {
 		"2.9.0.1": "fix the achievements about prevent death with voodoo poppets & use some magic scrolls",
