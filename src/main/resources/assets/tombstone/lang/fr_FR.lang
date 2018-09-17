@@ -200,8 +200,6 @@ tombstone.config.nerf_ghostly_shape.tooltip=Annule Forme Fantomatique si tu cass
 tombstone.config.chance_loss_on_death.tooltip=Chance d'avoir des pertes en mourant
 tombstone.config.percent_loss_on_death.tooltip=Pourcentage de perte en mourant
 tombstone.config.prevent_death_outside_world.tooltip=Empêche de mourir hors des frontières du monde
-tombstone.config.recovery_player_enable.tooltip=Permet de sauvegarder automatiquement les joueurs
-tombstone.config.recovery_player_timer.tooltip=Temps en minutes entre les sauvegardes des joueurs
 tombstone.config.graves_by_pass_griefing_rules.tooltip=Les Tombes sont autorisées à contourner les règles anti-griefing
 tombstone.config.blacklist_effects=Effets non conservés
 tombstone.config.blacklist_effects.tooltip=Effets qui ne sont jamais conservés après la mort
@@ -209,6 +207,12 @@ tombstone.config.whitelist_blocks=Blocs remplacables
 tombstone.config.whitelist_blocks.tooltip=Blocs qui peuvent être remplacés par les tombes
 tombstone.config.no_grave_location=Zone Sans Tombe
 tombstone.config.no_grave_location.tooltip=Zone où les tombes ne peuvent pas apparaître
+# Recovery
+tombstone.config_cat.recovery=Sauvegarde
+tombstone.config_cat.recovery.tooltip=Options liés à la commande recovery et aux sauvegardes automatiques de joueur
+tombstone.config.recovery_player_enable.tooltip=Permet de sauvegarder automatiquement les joueurs
+tombstone.config.recovery_player_timer.tooltip=Temps en minutes entre les sauvegardes des joueurs
+tombstone.config.recovery_player_max_saves.tooltip=Nombre maximum de sauvegardes par joueur
 # Client
 tombstone.config_cat.client=Client
 tombstone.config_cat.client.tooltip=Options personnelles pouvant être modifiées même sur le serveur
@@ -270,6 +274,7 @@ tombstone.config.allow_techguns_autoEquip.tooltip=Permet de rééquiper l'invent
 tombstone.config.allow_aether_legacy_autoEquip.tooltip=Permet de rééquiper l'inventaire de Aether Legacy
 tombstone.config.allow_rpg_inventory_autoEquip.tooltip=Permet de rééquiper l'inventaire de RPG Inventory
 tombstone.config.allow_the_between_lands_autoEquip.tooltip=Permet de rééquiper l'inventaire de The BetweenLands
+tombstone.config.allow_smart_backpacks_autoEquip.tooltip=Permet de rééquiper le sac-à-dos dans son emplacement
 tombstone.config.support_wearable_backpacks.tooltip=Permet de déplacer le sac-à-dos près de la tombe
 tombstone.config.keep_cosmetic_armor.tooltip=Garde les armures cosmétiques quand vous mourez
 # Avancements
@@ -397,3 +402,5 @@ tombstone.perk.mastery_of_tablets.name=Maîtrise des Tablettes
 tombstone.perk.mastery_of_tablets.desc=de ne pas dépenser une utilisation
 tombstone.perk.memento_mori.name=Memento Mori
 tombstone.perk.memento_mori.desc=d'expérience conservée en mourant
+tombstone.perk.disenchantment.name=Désenchantement
+tombstone.perk.disenchantment.desc=enchantement extrait

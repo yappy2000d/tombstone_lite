@@ -200,8 +200,6 @@ tombstone.config.nerf_ghostly_shape.tooltip=Cancels Ghostly Shape if you break a
 tombstone.config.chance_loss_on_death.tooltip=Chance to have some losses on death
 tombstone.config.percent_loss_on_death.tooltip=Percent of losses on death
 tombstone.config.prevent_death_outside_world.tooltip=Prevents to die out of world borders
-tombstone.config.recovery_player_enable.tooltip=Enables to backup automatically players
-tombstone.config.recovery_player_timer.tooltip=Time in minutes between players' backups
 tombstone.config.graves_by_pass_griefing_rules.tooltip=Graves are allowed to bypass anti-griefing rules
 tombstone.config.blacklist_effects=Unpreserved Effects
 tombstone.config.blacklist_effects.tooltip=Effects that are never preserved after death
@@ -209,6 +207,12 @@ tombstone.config.whitelist_blocks=Replaceable blocks
 tombstone.config.whitelist_blocks.tooltip=Blocks that can be replaced by graves
 tombstone.config.no_grave_location=No Grave Location
 tombstone.config.no_grave_location.tooltip=Areas where graves can't appear
+# Recovery
+tombstone.config_cat.recovery=Backup
+tombstone.config_cat.recovery.tooltip=Options related to the command recovery and auto-save of players
+tombstone.config.recovery_player_enable.tooltip=Enables to backup automatically players
+tombstone.config.recovery_player_timer.tooltip=Time in minutes between players' backups
+tombstone.config.recovery_player_max_saves.tooltip=Maximum number of backups per player
 # Client
 tombstone.config_cat.client=Client
 tombstone.config_cat.client.tooltip=Personal Options that can be edited even on server
@@ -270,6 +274,7 @@ tombstone.config.allow_techguns_autoEquip.tooltip=Allows to re-equip Techguns sl
 tombstone.config.allow_aether_legacy_autoEquip.tooltip=Allows to re-equip Aether Legacy slots
 tombstone.config.allow_rpg_inventory_autoEquip.tooltip=Allows to re-equip RPG Inventory slots
 tombstone.config.allow_the_between_lands_autoEquip.tooltip=Allows to re-equip The BetweenLands slots
+tombstone.config.allow_smart_backpacks_autoEquip.tooltip=Allows to re-equip the backpack slot
 tombstone.config.support_wearable_backpacks.tooltip=Allows to move the backpack close to the grave
 tombstone.config.keep_cosmetic_armor.tooltip=Keeps the cosmetic armor when you die
 # Advancements
@@ -397,3 +402,5 @@ tombstone.perk.mastery_of_tablets.name=Mastery of Tablet
 tombstone.perk.mastery_of_tablets.desc=chance to not spend a use
 tombstone.perk.memento_mori.name=Memento Mori
 tombstone.perk.memento_mori.desc=chance to keep experience on death
+tombstone.perk.disenchantment.name=Disenchantment
+tombstone.perk.disenchantment.desc=enchantment extracted
