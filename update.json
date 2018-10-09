@@ -1,7 +1,7 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "3.2.0",
+		"1.12.2-latest": "3.2.1",
 		"1.12.2-recommended": "3.2.0",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
@@ -15,6 +15,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"3.2.1": "some improvments & compat (see the change log)",
 		"3.2.0": "halloween content (see the change log)",
 		"3.1.2": "compat for SmartBackPacks, exorcism, new lang en_us & fix for Dust of Vanishing",
 		"3.1.1": "perk for disenchantment, compat for dim doors, fix grave access",
