@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "3.2.2",
-		"1.12.2-recommended": "3.2.2",
+		"1.12.2-latest": "3.2.3",
+		"1.12.2-recommended": "3.2.3",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -15,6 +15,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"3.2.3": "handles a list of contributors & fix #26 (about disenchantment)",
 		"3.2.2": "updates opencubicchunk api, improvments about lost tablet & world border and more",
 		"3.2.1": "some improvments & compat (see the change log)",
 		"3.2.0": "halloween content (see the change log)",
