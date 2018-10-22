@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "3.2.5",
-		"1.12.2-recommended": "3.2.5",
+		"1.12.2-latest": "3.2.6",
+		"1.12.2-recommended": "3.2.6",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -15,6 +15,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"3.2.6": "ghost only haunt players that don't pray on graves, delayed teleportation for some magic items",
 		"3.2.5": "config to spawn creatures after the recovery of a grave, and changes about grave's key teleportation",
 		"3.2.4": "adjustments for lost tablets",
 		"3.2.3": "handles a list of contributors & fix #26 (about disenchantment)",
