@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.0.2
+tombstone.lang.version=3.1.0
 tombstone.grave.grave_simple.name=Simple Grave
 tombstone.grave.grave_cross.name=Cross Grave
 tombstone.grave.grave_normal.name=Normal Grave
@@ -85,7 +85,7 @@ tombstone.item.ankh_of_pray.desc=Allows you to pray for your soul on graves
 tombstone.item.ankh_of_pray.use1=It doesn't appear to be the right time to pray
 tombstone.item.ankh_of_pray.use2=Hold right click near a decorative grave to pray
 tombstone.item.ankh_of_pray.use3=Right click on a grave's soul reset all your perks
-tombstone.item.lollypop.name=Halloween Lollypop
+tombstone.item.lollypop.name=Halloween Lollipop
 tombstone.item.lollypop.desc=The effects are unpredictable (milk should be useful)
 tombstone.tooltip.in_beta=This item is in beta; feedback is welcome
 tombstone.tooltip.more_info=Hold SHIFT for more information
@@ -275,6 +275,8 @@ tombstone.config.siege_min_door.tooltip=Minimum of doors for a siege
 tombstone.config.siege_min_villager.tooltip=Minimum of villagers for a siege
 tombstone.config.siege_min_golem.tooltip=Minimum of golems for a siege
 tombstone.config.siege_max_creature.tooltip=Maximum of creatures appearing in a siege
+tombstone.config.undead_wear_helm_in_siege.tooltip=Undeads always wear a helm when sieging
+tombstone.config.delay_siege_test.tooltip=Delay in seconds for a second test of siege when the first failed
 # Compatibilities
 tombstone.config_cat.compatibilities=Compatibilities
 tombstone.config_cat.compatibilities.tooltip=Allows to enable some features related to others mods
@@ -371,9 +373,9 @@ advancement.first_pray.desc=You used an Ânkh of Pray on a grave
 advancement.exorcism.title=What an excellent day for an exorcism
 advancement.exorcism.desc=You used an Ânkh of Pray on a zombie villager
 advancement.eat_lollypop.title=Not so bad
-advancement.eat_lollypop.desc=You have tasted a Halloween Lollypop
+advancement.eat_lollypop.desc=You have tasted a Halloween Lollipop
 advancement.expert_tasting.title=Expert Tasting
-advancement.expert_tasting.desc=You have tasted all the Halloween Lollypops
+advancement.expert_tasting.desc=You have tasted all the Halloween Lollipops
 tombstone.potion.ghostly_shape.name=Ghostly Shape
 tombstone.potion.preservation.name=Preservation
 tombstone.potion.unstable_intangibleness.name=Unstable Intangibleness

@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.0.2
+tombstone.lang.version=3.1.0
 tombstone.grave.grave_simple.name=Tombe Simple
 tombstone.grave.grave_cross.name=Tombe en Croix
 tombstone.grave.grave_normal.name=Tombe Normale
@@ -275,6 +275,8 @@ tombstone.config.siege_min_door.tooltip=Minimum de portes pour un siège
 tombstone.config.siege_min_villager.tooltip=Minimum de villageois pour un siège
 tombstone.config.siege_min_golem.tooltip=Minimum de golems pour un siège
 tombstone.config.siege_max_creature.tooltip=Maximum de créatures apparaissant dans un siège
+tombstone.config.undead_wear_helm_in_siege.tooltip=Les morts-vivants portent toujours des casques pendant les sièges
+tombstone.config.delay_siege_test.tooltip=Délais en secondes pour un second test de siège lorsque le premier a échoué
 # Compatibilité
 tombstone.config_cat.compatibilities=Compatibilité
 tombstone.config_cat.compatibilities.tooltip=Permet certaines fonctionnalités liés à d'autres mods
