@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.1.0
+tombstone.lang.version=3.1.1
 tombstone.grave.grave_simple.name=Tombe Simple
 tombstone.grave.grave_cross.name=Tombe en Croix
 tombstone.grave.grave_normal.name=Tombe Normale
@@ -184,6 +184,8 @@ tombstone.message.access_gui=Tu as gagné %s point(s) à dépenser. Clic %s si t
 tombstone.message.perk_reset.success=Tes avantages ont été réinitialisés
 tombstone.message.perk_reset.failed=Tu n'as pas attribué aucun avantage, ils ne peuvent donc pas être réinitialisés
 tombstone.message.perk_required=Cet objet peut seulement être utilisé en débloquant l'avantage %s
+tombstone.message.siege_start.success=Un siège a débuté
+tombstone.message.siege_start.failed=Un siège est déjà en cours
 # Général
 tombstone.config_cat.client=Général
 tombstone.config_cat.client.tooltip=Options liées à la mort du joueur et plus
@@ -268,7 +270,7 @@ tombstone.config.enable_enchantment_soulbound.tooltip=Active l'enchantement Liag
 tombstone.config_cat.village_siege=Siège de Village
 tombstone.config_cat.village_siege.tooltip=Permet de définir les conditions pour qu'un siège de village débute
 tombstone.config.handle_village_siege.tooltip=Permet de gérer les sièges de village
-tombstone.config.disable_nether_end_siege_tick.tooltip=Désactive le tick de siège de village dans le Nether et l'End
+tombstone.config.denied_dimension_type_for_siege.tooltip=Désactive le tick de siège de village pour ces types de dimension
 tombstone.config.allow_creative_players_for_siege.tooltip=Autorise d'utiliser la position des joueurs créatifs pour définir l'endroit du siège
 tombstone.config.siege_chance.tooltip=Chance qu'un siège se produise
 tombstone.config.siege_min_door.tooltip=Minimum de portes pour un siège
@@ -277,6 +279,8 @@ tombstone.config.siege_min_golem.tooltip=Minimum de golems pour un siège
 tombstone.config.siege_max_creature.tooltip=Maximum de créatures apparaissant dans un siège
 tombstone.config.undead_wear_helm_in_siege.tooltip=Les morts-vivants portent toujours des casques pendant les sièges
 tombstone.config.delay_siege_test.tooltip=Délais en secondes pour un second test de siège lorsque le premier a échoué
+tombstone.config.persistent_mob_in_siege.tooltip=Les créatures sont persistantes lors d'un siège
+tombstone.config.shuffle_players_for_siege.tooltip=Mélange la liste des joueurs avant de tester l'endroit du siège
 # Compatibilité
 tombstone.config_cat.compatibilities=Compatibilité
 tombstone.config_cat.compatibilities.tooltip=Permet certaines fonctionnalités liés à d'autres mods
@@ -411,6 +415,10 @@ tombstone.command.exception.offline_player=Le joueur est hors-ligne
 tombstone.command.exception.no_dimension=La dimension n'a pas été trouvée
 tombstone.command.exception.no_grave=La tombe n'a pas été trouvée
 tombstone.command.exception.cap_null=Aucun moyen d'accéder aux informations
+tombstone.command.exception.disabled=La commande est désactivée
+tombstone.command.exception.difficulty_peaceful=La commande ne peut pas être utilisée en difficulté paisible
+tombstone.command.exception.denied_dimension=La commande n'est pas autorisée dans cette dimension
+tombstone.command.exception.only_at_night=La commande ne peut être utilisée que pendant la nuit
 tombstone.perk.bone_collector.name=Collecteur d'Os
 tombstone.perk.bone_collector.desc=de trouver des objets spéciaux sur les morts-vivants
 tombstone.perk.grave_key.desc=chance d'obtenir une clé enchantée

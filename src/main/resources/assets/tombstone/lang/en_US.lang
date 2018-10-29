@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.1.0
+tombstone.lang.version=3.1.1
 tombstone.grave.grave_simple.name=Simple Grave
 tombstone.grave.grave_cross.name=Cross Grave
 tombstone.grave.grave_normal.name=Normal Grave
@@ -184,6 +184,8 @@ tombstone.message.access_gui=You earned %s point(s). Click %s if you want to acc
 tombstone.message.perk_reset.success=Your perks have been reset
 tombstone.message.perk_reset.failed=You have not assigned any perks, so they cannot be reset
 tombstone.message.perk_required=This item can only be used by unlocking the perk %s
+tombstone.message.siege_start.success=A siege started
+tombstone.message.siege_start.failed=A siege is already launched
 # General
 tombstone.config_cat.general=General
 tombstone.config_cat.general.tooltip=Miscellaneous options
@@ -268,7 +270,7 @@ tombstone.config.enable_enchantment_soulbound.tooltip=Enables the enchantment So
 tombstone.config_cat.village_siege=Village Siege
 tombstone.config_cat.village_siege.tooltip=Allows to define the conditions for a village siege to begin
 tombstone.config.handle_village_siege.tooltip=Allows to handle village sieges
-tombstone.config.disable_nether_end_siege_tick.tooltip=Disables the tick for village siege in Nether and End
+tombstone.config.denied_dimension_type_for_siege.tooltip=Disables the tick for village siege for theses dimension types
 tombstone.config.allow_creative_players_for_siege.tooltip=Allows to use the positions of creative players to define the siege location
 tombstone.config.siege_chance.tooltip=Chance for a siege to occur
 tombstone.config.siege_min_door.tooltip=Minimum of doors for a siege
@@ -277,6 +279,8 @@ tombstone.config.siege_min_golem.tooltip=Minimum of golems for a siege
 tombstone.config.siege_max_creature.tooltip=Maximum of creatures appearing in a siege
 tombstone.config.undead_wear_helm_in_siege.tooltip=Undeads always wear a helm when sieging
 tombstone.config.delay_siege_test.tooltip=Delay in seconds for a second test of siege when the first failed
+tombstone.config.persistent_mob_in_siege.tooltip=Mobs in siege are persistent
+tombstone.config.shuffle_players_for_siege.tooltip=Shuffles the list of players before testing the siege location
 # Compatibilities
 tombstone.config_cat.compatibilities=Compatibilities
 tombstone.config_cat.compatibilities.tooltip=Allows to enable some features related to others mods
@@ -411,6 +415,10 @@ tombstone.command.exception.offline_player=The player is offline
 tombstone.command.exception.no_dimension=The dimension was not found
 tombstone.command.exception.no_grave=The grave has not been found
 tombstone.command.exception.cap_null=No way to access the informations
+tombstone.command.exception.disabled=The command is disabled
+tombstone.command.exception.difficulty_peaceful=The command can't be used in peaceful difficulty
+tombstone.command.exception.denied_dimension=The command is not allowed in this dimension
+tombstone.command.exception.only_at_night=The command can only be used during night
 tombstone.perk.bone_collector.name=Bone Collector
 tombstone.perk.bone_collector.desc=chance to find special drops on the undead
 tombstone.perk.grave_key.desc=chance to receive an enchanted key
