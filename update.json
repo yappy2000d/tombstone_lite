@@ -1,7 +1,7 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "3.3.2",
+		"1.12.2-latest": "3.3.3",
 		"1.12.2-recommended": "3.3.2",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
@@ -15,26 +15,10 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"3.3.3": "auto-equip for the new api of Aether Legacy\nfix #48 (compat with JED about the totalWorldTime and the cooldown of the Ankh)",
 		"3.3.2": "fix #42 (compat forge 2777+ & revengeTarget)",
 		"3.3.1": "update lang-en & api for cubicchunks/JEI, fix #40 by disabling the auto-equip for new version of Aether Legacy",
-		"3.3.0": "compat for blood magic, command tbsiege (+ new config options), fix #32",
-		"3.2.6": "ghost only haunt players that don't pray on graves, delayed teleportation for some magic items",
-		"3.2.5": "config to spawn creatures after the recovery of a grave, and changes about grave's key teleportation",
-		"3.2.4": "adjustments for lost tablets",
-		"3.2.3": "handles a list of contributors & fix #26 (about disenchantment)",
-		"3.2.2": "updates opencubicchunk api, improvments about lost tablet & world border and more",
-		"3.2.1": "some improvments & compat (see the change log)",
-		"3.2.0": "halloween content (see the change log)",
-		"3.1.2": "compat for SmartBackPacks, exorcism, new lang en_us & fix for Dust of Vanishing",
-		"3.1.1": "perk for disenchantment, compat for dim doors, fix grave access",
-		"3.1.0": "v3 out of beta, and some fixes",
-		"3.0.2": "ankh of pray, casting animation & advancement rewards in knowledge points",
-		"3.0.1": "beta that introduces the knowledge of death",
-		"2.10.4": "compat for ice & fire, fix for ghostly shape/diversion",
-		"2.10.3": "fix #19 (related to soul receptacle)",
-		"2.10.2": "config options to disable some magic items & fix the namespace for tileentities",
-		"2.10.1": "config with all options & several categories, and compat for Cosmetic Armor",
-		"2.10.0": "fix #17 (related to xp & enchant table)"
+		"3.3.0": "compat for blood magic, command tbsiege (+ new config options), fix #32"
 	},
 	"1.12.1": {
 		"2.9.9": "only fix and change the grave ground with vanilla texture"
