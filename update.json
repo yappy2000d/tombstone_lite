@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.12.2-latest": "3.3.3",
-		"1.12.2-recommended": "3.3.2",
+		"1.12.2-latest": "3.3.4",
+		"1.12.2-recommended": "3.3.4",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -15,6 +15,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.12.2": {
+		"3.3.4": "multiple minor changes, adapt grave smoke & additional compat with JED",
 		"3.3.3": "auto-equip for the new api of Aether Legacy\nfix #48 (compat with JED about the totalWorldTime and the cooldown of the Ankh)",
 		"3.3.2": "fix #42 (compat forge 2777+ & revengeTarget)",
 		"3.3.1": "update lang-en & api for cubicchunks/JEI, fix #40 by disabling the auto-equip for new version of Aether Legacy",
