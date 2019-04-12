@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.13.2-latest": "3.4.0",
-		"1.13.2-recommended": "3.4.0",
+		"1.13.2-latest": "3.4.1",
+		"1.13.2-recommended": "3.4.1",
 		"1.12.2-latest": "3.3.4",
 		"1.12.2-recommended": "3.3.4",
 		"1.12.1-latest": "2.9.9",
@@ -17,6 +17,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.13.2": {
+		"3.4.1": "compendium of infos ingame, new vanilla structures for lost tablets & improve commands",
 		"3.4.0": "first beta on 1.13.2 (full content)"
 	},
 	"1.12.2": {
