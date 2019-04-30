@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.1.2
+tombstone.lang.version=3.1.3
 tombstone.grave.grave_simple.name=Simple Grave
 tombstone.grave.grave_cross.name=Cross Grave
 tombstone.grave.grave_normal.name=Normal Grave
@@ -217,6 +217,7 @@ tombstone.config.whitelist_blocks.tooltip=Blocks that can be replaced by graves
 tombstone.config.no_grave_location=Graveless Areas
 tombstone.config.no_grave_location.tooltip=Coordinates where graves shouldn't spawn
 tombstone.config.chance_mob_on_grave_recovery.tooltip=The chance that creatures appear after the contents of a grave are retrieved
+tombstone.config.persistant_halloween.tooltip=The Halloween features also happen outside the dates of the event
 # Recovery
 tombstone.config_cat.recovery=Backup
 tombstone.config_cat.recovery.tooltip=Options related to the command recovery and auto-save of players
@@ -240,8 +241,8 @@ tombstone.config.show_enhanced_tooltips.tooltip=Shows all the infos in the toolt
 tombstone.config.date_in_mc_time.tooltip=Shows only the elapsed minecraft days since the death on graves
 tombstone.config.display_knowledge_message.tooltip=Display or not the messages of gain of points in knowledge of death
 tombstone.config.enable_halloween_effect.tooltip=Enables the special rendering and particles for Halloween
-tombstone.config.enable_halloween_grave.tooltip=Allows graves to be decorated for Halloween
 tombstone.config.show_info_on_enchantment.tooltip=Shows the use of the Tombstone's enchantments in tooltip
+tombstone.config.grave_skin_rule.tooltip=Defines the rule to use for grave's skin
 # Decorative Grave
 tombstone.config_cat.decorative_grave=Decorative Grave
 tombstone.config_cat.decorative_grave.tooltip=For settings related to decorative tombs and magic items
