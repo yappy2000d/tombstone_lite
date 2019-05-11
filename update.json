@@ -3,8 +3,8 @@
 	"promos": {
 		"1.13.2-latest": "3.4.3",
 		"1.13.2-recommended": "3.4.3",
-		"1.12.2-latest": "3.4.0",
-		"1.12.2-recommended": "3.3.5",
+		"1.12.2-latest": "3.4.1",
+		"1.12.2-recommended": "3.4.1",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -23,6 +23,7 @@
 		"3.4.0": "first beta on 1.13.2 (full content)"
 	},
 	"1.12.2": {
+		"3.4.1": "fix lost tablets can't wake up (since 3.3.4)",
 		"3.4.0": "compendium to provide infos ingame, first api and improvements",
 		"3.3.6": "config to activate halloween event, see the change log for more",
 		"3.3.5": "comments in config cfg, rework the command tbknowledge, configs to define lootables used by Tombstone & to hide enchantment tooltip",
