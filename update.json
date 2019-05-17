@@ -1,7 +1,7 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.13.2-latest": "3.4.3",
+		"1.13.2-latest": "3.5.0",
 		"1.13.2-recommended": "3.4.3",
 		"1.12.2-latest": "3.4.1",
 		"1.12.2-recommended": "3.4.1",
@@ -17,6 +17,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.13.2": {
+		"3.5.0": "new item Familiar Receptacle + command to revive familiars",
 		"3.4.3": "config for cooldown to reset perks, improve the perk Alchemy and same api as 1.12.2",
 		"3.4.2": "config to activate halloween event, see the change log for more",
 		"3.4.1": "compendium of infos ingame, new vanilla structures for lost tablets & improve commands",
