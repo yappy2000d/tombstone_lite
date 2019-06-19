@@ -27,6 +27,7 @@
 		"3.5.0": "new item Familiar Receptacle + command to revive familiars"
 	},
 	"1.12.2": {
+		"3.5.4": "fix #66 & #67",
 		"3.5.3": "some improvements (see changelog)",
 		"3.5.2": "some improvements and fix #63 (ankh interaction)",
 		"3.5.1": "fix #61, improve the way to pray with the receptacle in offhand & config for creatures not capturable with receptacle",
