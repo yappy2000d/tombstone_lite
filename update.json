@@ -1,6 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
+		"1.14.3-latest": "3.7.0",
+		"1.14.3-recommended": "3.7.0",
 		"1.14.2-latest": "3.6.2",
 		"1.14.2-recommended": "3.6.2",
 		"1.13.2-latest": "3.5.2",
@@ -17,6 +19,9 @@
 		"1.9.4-recommended": "1.4.1",
 		"1.8.9-latest": "1.4.1",
 		"1.8.9-recommended": "1.4.1"
+	},
+	"1.14.3": {
+		"3.7.0": "first release for 1.14.3"
 	},
 	"1.14.2": {
 		"3.6.2": "custom triggers for advancements(#68), support in JEI, fix about potion type",
