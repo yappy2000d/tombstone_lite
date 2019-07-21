@@ -1,6 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
+		"1.14.4-latest": "3.7.2",
+		"1.14.4-recommended": "3.7.2",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
 		"1.14.2-latest": "3.6.2",
@@ -19,6 +21,9 @@
 		"1.9.4-recommended": "1.4.1",
 		"1.8.9-latest": "1.4.1",
 		"1.8.9-recommended": "1.4.1"
+	},
+	"1.14.4": {
+		"3.7.2": "first release for 1.14.4 & fix #73"
 	},
 	"1.14.3": {
 		"3.7.1": "fix #70, #71 & the number of enchantments extracted",
