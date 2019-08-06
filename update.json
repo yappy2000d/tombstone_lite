@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.14.4-latest": "3.7.4",
-		"1.14.4-recommended": "3.7.3",
+		"1.14.4-latest": "3.7.5",
+		"1.14.4-recommended": "3.7.5",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
 		"1.14.2-latest": "3.6.2",
@@ -23,6 +23,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.14.4": {
+		"3.7.5": "update to forge 45 (incompatible changes), compat CosmeticArmorReworked, adapt command tbsiege, solves #75, fix #78",
 		"3.7.4": "support to auto-equip special slots from the mod Curio",
 		"3.7.3": "fix #77 : praying with ankh could disconnect while under the effect Bad Omen",
 		"3.7.2": "first release for 1.14.4 & fix #73"
