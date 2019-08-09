@@ -9,8 +9,8 @@
 		"1.14.2-recommended": "3.6.2",
 		"1.13.2-latest": "3.5.2",
 		"1.13.2-recommended": "3.5.2",
-		"1.12.2-latest": "3.5.5",
-		"1.12.2-recommended": "3.5.4",
+		"1.12.2-latest": "3.5.6",
+		"1.12.2-recommended": "3.5.6",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -43,6 +43,7 @@
 		"3.5.0": "new item Familiar Receptacle + command to revive familiars"
 	},
 	"1.12.2": {
+		"3.5.6": "compat for Powersuits, Wings and improve Baubles compat",
 		"3.5.5": "custom trigger for advancements (#68)",
 		"3.5.4": "fix #66 & #67",
 		"3.5.3": "some improvements (see changelog)",
