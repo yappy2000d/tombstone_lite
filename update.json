@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.14.4-latest": "4.1.1",
-		"1.14.4-recommended": "4.1.1",
+		"1.14.4-latest": "4.1.2",
+		"1.14.4-recommended": "4.1.2",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
 		"1.14.2-latest": "3.6.2",
@@ -23,6 +23,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.14.4": {
+		"4.1.2": "improve teleportation & backup mechanics, tweak shadow step",
 		"4.1.1": "improvements (see changelog), fix #83",
 		"4.1.0": "config in game (see changelog)",
 		"4.0.0": "new grave models (see changelog)",
