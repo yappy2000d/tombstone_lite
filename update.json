@@ -48,6 +48,7 @@
 		"3.5.0": "new item Familiar Receptacle + command to revive familiars"
 	},
 	"1.12.2": {
+		"3.5.8": "fix #86, tweak shadow step & allow to recover a backup for an offline player",
 		"3.5.7": "some improvements (see changelog)",
 		"3.5.6": "compat for Powersuits, Wings and improve Baubles compat",
 		"3.5.5": "custom trigger for advancements (#68)",
