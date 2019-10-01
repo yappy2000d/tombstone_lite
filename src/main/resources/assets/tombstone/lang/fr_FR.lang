@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.2.3
+tombstone.lang.version=3.2.4
 tombstone.grave.grave_simple.name=Tombe Simple
 tombstone.grave.grave_cross.name=Tombe en Croix
 tombstone.grave.grave_normal.name=Tombe Normale
@@ -151,6 +151,7 @@ tombstone.message.prevent_death.drown=La Poupée Vaudou t'a empêché de mourir 
 tombstone.message.prevent_death.burn=La Poupée Vaudou t'a empêché de mourir de brûlure
 tombstone.message.prevent_death.starve=La Poupée Vaudou t'a empêché de mourir de faim
 tombstone.message.prevent_death.fall=La Poupée Vaudou t'a empêché de mourir des dégâts de ta chute
+tombstone.message.prevent_death.wither=La Poupée Vaudou t'a empêché de mourir de dépérissement
 tombstone.message.no_protection_to_seal=La Poupée Vaudou n'a aucune protection à sceller
 tombstone.message.recovery.save_player.success=%s a été correctement sauvegardé
 tombstone.message.recovery.save_player.failed=%s n'a pas été correctement sauvegardé
@@ -212,8 +213,8 @@ tombstone.message.empty_receptacle=Le réceptacle dans votre main ne contient au
 tombstone.message.cant_revive_familiar=%s semble être perdu pour toujours dans les limbes
 tombstone.death.beyond_the_grave=Ton âme s'est affaiblie
 # Général
-tombstone.config_cat.client=Général
-tombstone.config_cat.client.tooltip=Options liées à la mort du joueur et plus
+tombstone.config_cat.general=Général
+tombstone.config_cat.general.tooltip=Options liées à la mort du joueur et plus
 tombstone.config.handle_player_death.tooltip=Gère la mort du joueur
 tombstone.config.handle_player_xp.tooltip=Gère l'expérience du joueur
 tombstone.config.restore_effects_on_death.tooltip=Restaure les effets bénéfiques après la mort d'un joueur
@@ -241,6 +242,7 @@ tombstone.config.no_grave_location=Zone Sans Tombe
 tombstone.config.no_grave_location.tooltip=Zone où les tombes ne peuvent pas apparaître
 tombstone.config.chance_mob_on_grave_recovery.tooltip=Chance que des créatures apparaissent après avoir récuper le contenu d'une tombe
 tombstone.config.persistant_halloween.tooltip=Les fonctionnalités d'Halloween se déroule aussi en dehors des dates de l'évènement
+tombstone.config.allow_beyond_the_grave_damage.tooltip=Autorise les joueurs à être blessés par les dégâts spéciaux relatif à certains objets de Tombstone
 # Recovery
 tombstone.config_cat.recovery=Sauvegarde
 tombstone.config_cat.recovery.tooltip=Options liés à la commande recovery et aux sauvegardes automatiques de joueur
@@ -446,7 +448,7 @@ tombstone.command.tbshowlastgrave.usage=Affiche la position de la dernière tomb
 tombstone.command.tbteleportgrave.usage=Téléporte à la dernière tombe connue d'un joueur\n/tbteleportgrave [joueur] [joueurTombe]
 tombstone.command.tbteleport.usage=Téléportation dimensionelle/tbteleport [entité] <destination>\n<destination> = <entitéCible> or <x> <y> <z> [dim]
 tombstone.command.tbrestoreinventory.usage=Restaure l'inventaire du joueur avec la dernière tombe connue\n/tbrestoreinventory [joueur]
-tombstone.command.tbrecovery.usage=Sauvegarde et restaure les joueurs\n/tbrecovery <save_all_players|save_player <joueur>|load_player<joueur> <sauvegarde>>
+tombstone.command.tbrecovery.usage=Sauvegarde et restaure les joueurs\n/tbrecovery <save_all_players|save_player <joueur>|load_player <joueur> <sauvegarde>|load_offline <uuid> <sauvegarde>>
 tombstone.command.tbknowledge.usage=Définis la connaissance de la mort d'un joueur\n/tbknowledge <joueur> <show|set|give|remove> <valeur>
 tombstone.command.tbsiege.usage=Lance un siège de village dans la dimension choisie ou votre dimension actuelle\n/tbsiege [dim]
 tombstone.command.tbrevivefamiliar.usage=Revives the last dead familiar of a player\n/tbrevivefamiliar <joueur>
@@ -460,6 +462,7 @@ tombstone.command.exception.invalid_structure=Le nom de la structure est invalid
 tombstone.command.exception.no_structure=Aucune structure n'a été trouvée
 tombstone.command.exception.invalid_location=La position est invalide
 tombstone.command.exception.invalid_player=Le nom de joueur est invalide
+tombstone.command.exception.online_player=Le joueur est en ligne
 tombstone.command.exception.offline_player=Le joueur est hors-ligne
 tombstone.command.exception.no_dimension=La dimension n'a pas été trouvée
 tombstone.command.exception.no_grave=La tombe n'a pas été trouvée

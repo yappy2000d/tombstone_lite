@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.2.3
+tombstone.lang.version=3.2.4
 tombstone.grave.grave_simple.name=Simple Grave
 tombstone.grave.grave_cross.name=Cross Grave
 tombstone.grave.grave_normal.name=Normal Grave
@@ -151,6 +151,7 @@ tombstone.message.prevent_death.drown=The Voodoo Poppet protected you from death
 tombstone.message.prevent_death.burn=The Voodoo Poppet protected you from death by burning
 tombstone.message.prevent_death.starve=The Voodoo Poppet protected you from death by starving
 tombstone.message.prevent_death.fall=The Voodoo Poppet prevented you from death by falling
+tombstone.message.prevent_death.wither=The Voodoo Poppet prevented you from death by withering
 tombstone.message.no_protection_to_seal=No protection to seal
 tombstone.message.recovery.save_player.success=%s has successfully been saved
 tombstone.message.recovery.save_player.failed=%s could not be saved
@@ -241,6 +242,7 @@ tombstone.config.no_grave_location=Graveless Areas
 tombstone.config.no_grave_location.tooltip=Coordinates where graves shouldn't spawn
 tombstone.config.chance_mob_on_grave_recovery.tooltip=The chance that creatures appear after the contents of a grave are retrieved
 tombstone.config.persistant_halloween.tooltip=The Halloween features also happen outside the dates of the event
+tombstone.config.allow_beyond_the_grave_damage.tooltip=Allows players to be hurt by special damages related to some items
 # Recovery
 tombstone.config_cat.recovery=Backup
 tombstone.config_cat.recovery.tooltip=Options related to the command recovery and auto-save of players
@@ -446,7 +448,7 @@ tombstone.command.tbshowlastgrave.usage=Shows the position of the last known gra
 tombstone.command.tbteleportgrave.usage=Teleports to the last known grave of a player\n/tbteleportgrave [player] [playerGrave]
 tombstone.command.tbteleport.usage=Dimensional teleport\n/tbteleport [entity] <destination>\n<destination> = <targetEntity> or <x> <y> <z> [dim]
 tombstone.command.tbrestoreinventory.usage=Restores the player inventory with the last known grave\n/tbrestoreinventory [player]
-tombstone.command.tbrecovery.usage=Backups and restores players\n/tbrecovery <save_all_players|save_player <player>|load_player<player> <save>>
+tombstone.command.tbrecovery.usage=Backups and restores players\n/tbrecovery <save_all_players|save_player <player>|load_player <player> <save>|load_offline <uuid> <save>>
 tombstone.command.tbknowledge.usage=Sets the knowledge of death of a player\n/tbknowledge <player> <show|set|give|remove> <value>
 tombstone.command.tbsiege.usage=Launches a village siege in the chosen dimension or your current one\n/tbsiege [dim]
 tombstone.command.tbrevivefamiliar.usage=Revives the last dead familiar of a player\n/tbrevivefamiliar <player>
@@ -460,6 +462,7 @@ tombstone.command.exception.invalid_structure=The structure name is invalid
 tombstone.command.exception.no_structure=No structure was found
 tombstone.command.exception.invalid_location=The location is invalid
 tombstone.command.exception.invalid_player=The player name is invalid
+tombstone.command.exception.online_player=The player is online
 tombstone.command.exception.offline_player=The player is offline
 tombstone.command.exception.no_dimension=The dimension was not found
 tombstone.command.exception.no_grave=The grave has not been found
