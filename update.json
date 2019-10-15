@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.14.4-latest": "4.1.4",
-		"1.14.4-recommended": "4.1.3",
+		"1.14.4-latest": "4.1.5",
+		"1.14.4-recommended": "4.1.5",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
 		"1.14.2-latest": "3.6.2",
@@ -23,6 +23,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.14.4": {
+		"4.1.5": "reworks the guis, scroll of reach and some improvements",
 		"4.1.4": "fix #92 (command tbgui on server), chinese lang (by Aikinitt)",
 		"4.1.3": "update for forge 28.1.0 (required changes)",
 		"4.1.2": "improve teleportation & backup mechanics, tweak shadow step",
