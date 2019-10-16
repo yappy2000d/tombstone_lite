@@ -9,8 +9,8 @@
 		"1.14.2-recommended": "3.6.2",
 		"1.13.2-latest": "3.5.2",
 		"1.13.2-recommended": "3.5.2",
-		"1.12.2-latest": "3.5.9",
-		"1.12.2-recommended": "3.5.8",
+		"1.12.2-latest": "3.6.0",
+		"1.12.2-recommended": "3.6.0",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -36,20 +36,16 @@
 		"3.7.2": "first release for 1.14.4 & fix #73"
 	},
 	"1.14.3": {
-		"3.7.1": "fix #70, #71 & the number of enchantments extracted",
-		"3.7.0": "first release for 1.14.3"
+		"3.7.1": "fix #70, #71 & the number of enchantments extracted"
 	},
 	"1.14.2": {
-		"3.6.2": "custom triggers for advancements(#68), support in JEI, fix about potion type",
-		"3.6.1": "new placement logic, fix some particles, fix #67",
-		"3.6.0": "first beta for 1.14.2"
+		"3.6.2": "custom triggers for advancements(#68), support in JEI, fix about potion type"
 	},
 	"1.13.2": {
-		"3.5.2": "improves the command to revive tamed creatures",
-		"3.5.1": "custom itemTag for the grave's key recipe (#54), improve the way to pray with the receptacle in offhand & configs about the new content",
-		"3.5.0": "new item Familiar Receptacle + command to revive familiars"
+		"3.5.2": "improves the command to revive tamed creatures"
 	},
 	"1.12.2": {
+		"3.6.0": "relook the knowledge gui, scroll of reach & fix nightvision with True Sight/Ghostly Shape",
 		"3.5.9": "compat Cannibalism, chinese lang (by Aikinitt) & config can disable the enchanted grave's key",
 		"3.5.8": "fix #86, tweak shadow step & allow to recover a backup for an offline player",
 		"3.5.7": "some improvements (see changelog)",
@@ -66,12 +62,10 @@
 		"2.9.9": "only fix and change the grave ground with vanilla texture"
 	},
 	"1.11.2": {
-		"2.9.0.1": "fix the achievements about prevent death with voodoo poppets & use some magic scrolls",
-		"2.9.0": "backport from the 1.12.2 version, including all the changes & compatibilities"
+		"2.9.0.1": "fix the achievements about prevent death with voodoo poppets & use some magic scrolls"
 	},
 	"1.10.2": {
-		"2.9.4": "book of disenchantment, auto-respawn, backup, auto-equip BetweenLands & skip anti griefing mods",
-		"2.9.0": "backport from the 1.12.2 version, including all the changes & compatibilities"
+		"2.9.4": "book of disenchantment, auto-respawn, backup, auto-equip BetweenLands & skip anti griefing mods"
 	},
 	"1.9.4": {
 		"1.4.1": "current last version for 1.9.4"
