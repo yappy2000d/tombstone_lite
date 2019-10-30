@@ -9,7 +9,7 @@
 		"1.14.2-recommended": "3.6.2",
 		"1.13.2-latest": "3.5.2",
 		"1.13.2-recommended": "3.5.2",
-		"1.12.2-latest": "3.6.1",
+		"1.12.2-latest": "3.6.2",
 		"1.12.2-recommended": "3.6.0",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
@@ -46,6 +46,7 @@
 		"3.5.2": "improves the command to revive tamed creatures"
 	},
 	"1.12.2": {
+		"3.6.2": "command to teleport respawn + tablet, new texture for ghost & guis, fix #98",
 		"3.6.1": "multiple changes (see changelog)",
 		"3.6.0": "relook the knowledge gui, scroll of reach & fix nightvision with True Sight/Ghostly Shape",
 		"3.5.9": "compat Cannibalism, chinese lang (by Aikinitt) & config can disable the enchanted grave's key",
