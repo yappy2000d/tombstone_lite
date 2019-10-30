@@ -1,7 +1,7 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.14.4-latest": "4.1.6",
+		"1.14.4-latest": "4.1.7",
 		"1.14.4-recommended": "4.1.5",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
@@ -23,6 +23,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.14.4": {
+		"4.1.7": "command to teleport respawn + tablet, new texture for ghost & guis, fix #97, fix #98",
 		"4.1.6": "multiple changes (see changelog)",
 		"4.1.5": "reworks the guis, scroll of reach and some improvements",
 		"4.1.4": "fix #92 (command tbgui on server), chinese lang (by Aikinitt)",
