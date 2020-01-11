@@ -1,8 +1,8 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/tombstone_lite",
 	"promos": {
-		"1.15.1-latest": "4.1.8",
-		"1.15.1-recommended": "4.1.8",
+		"1.15.1-latest": "4.1.9",
+		"1.15.1-recommended": "4.1.9",
 		"1.14.4-latest": "4.1.8",
 		"1.14.4-recommended": "4.1.8",
 		"1.14.3-latest": "3.7.1",
@@ -25,6 +25,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.15.1": {
+		"4.1.9": "full version",
 		"4.1.8": "first beta for 1.15.1"
 	},
 	"1.14.4": {
