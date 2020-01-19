@@ -11,8 +11,8 @@
 		"1.14.2-recommended": "3.6.2",
 		"1.13.2-latest": "3.5.2",
 		"1.13.2-recommended": "3.5.2",
-		"1.12.2-latest": "3.6.4",
-		"1.12.2-recommended": "3.6.3",
+		"1.12.2-latest": "3.6.5",
+		"1.12.2-recommended": "3.6.5",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -54,6 +54,7 @@
 		"3.5.2": "improves the command to revive tamed creatures"
 	},
 	"1.12.2": {
+		"3.6.5": "compat FuturePack/AdvancedFishing/Quark, fix for tablet of assistance, grave item interaction",
 		"3.6.4": "compat Hwyla (fix #107) and compat TConstruct (fix #112)",
 		"3.6.3": "fix #103 (lost tablet awakening), fix plate texture on graves and russian lang",
 		"3.6.2": "command to teleport respawn + tablet, new texture for ghost & guis, fix #98",
