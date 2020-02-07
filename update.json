@@ -5,8 +5,8 @@
 		"1.15.2-recommended": "4.2.1",
 		"1.15.1-latest": "4.2.1",
 		"1.15.1-recommended": "4.2.1",
-		"1.14.4-latest": "4.1.9",
-		"1.14.4-recommended": "4.1.9",
+		"1.14.4-latest": "4.2.0",
+		"1.14.4-recommended": "4.2.0",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
 		"1.14.2-latest": "3.6.2",
@@ -37,6 +37,7 @@
 		"4.1.8": "first beta for 1.15.1"
 	},
 	"1.14.4": {
+		"4.2.0": "spanish translation, fix for tablet of assistance (since 4.1.9)",
 		"4.1.9": "fix for tablet of assistance, grave item interaction, compat Quark, tags to prevent grave destruction",
 		"4.1.8": "fix lost tablets (#103), compat Hwyla (#107), russian translation & more particles with command",
 		"4.1.7": "command to teleport respawn + tablet, new texture for ghost & guis, fix #97, fix #98",
