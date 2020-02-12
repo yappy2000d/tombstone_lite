@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.2.6
+tombstone.lang.version=3.2.7
 tombstone.grave.grave_simple.name=Простая могила
 tombstone.grave.grave_cross.name=Могила с крестом
 tombstone.grave.grave_normal.name=Обычная могила
@@ -513,6 +513,8 @@ tombstone.compendium.death.title=Die in Tombstone
 tombstone.compendium.death.desc=When a player dies, a grave is created containing all lost items.\nThe player reappears with the Grave's Key allowing to teleport if enchanted, as well as a Ghostly Shape effect preventing creatures from attacking you.\nThe amount of experience lost is defined in the config and adjusted by the Perk Memento Mori by 20 %% per level allowing to reach 100 %%.
 tombstone.compendium.decorative_grave.desc=Decorative Graves are special blocks that emit smoke at night.\nThey can be made from Dark Marble and any Skull, and can be harvested with a pickaxe or shovel.\nYou can engrave them with an Anvil and an Iron Ingot, and by replacing the actual name with a new one.\nThe Decorative Graves are sometimes haunted by a soul (defined by the config) that can be used to enchant certain magical items such as the Grave's Key, Scrolls and Tablets.\nThe chance to have a soul on a decorative grave is not influenced if the chunk is unloaded.
 tombstone.compendium.dust_of_vanishing.desc=The Dust of Vanishing is created from Grave's Dust and Gunpowder.\nIt allows an easy retreat by disappearing from the eyes of creatures in a cloud of smoke, and reappearing a few steps behind your old position.
+tombstone.compendium.enchantments.title=Enchantments
+tombstone.compendium.enchantments.desc=§nSoulbound§r: items with this enchantment remain on you when you die\n§nShadow Step§r: you move discreetly reducing the distance to be detected by creatures.\nDistance is affected by day, level of enchantment and whether the player is crouched.\n§nMagic Siphon§r: each hit on a creature has a chance, depending on the level of the enchantment, to steal a magical effect from the creature (potions count as magical effect).
 tombstone.compendium.familiar_receptacle.desc=This receptacle can not be created without a high Knowledge of Death.\nIt can capture the soul of one of your dead familiar and all its possessions.\nThe soul contained in the receptacle must then recover by slowly absorbing the vital essence of the wearer.\nThe most common use of the receptacle is to bring this familiar back to life by praying with the Ânkh.
 tombstone.compendium.fishing_rod_of_misadventure.desc=This fishing rod seems to be bad luck fishing.\nEnchanting the item with a Grave's Soul seems to worsen this bad luck.
 tombstone.compendium.ghostly_shape.desc=The Ghostly Shape is an effect received after a death that prevents creatures from attacking you.\nIt can be improved with the Perk Ghostly Shape granting some additional effects.\nThe effect is canceled if you attack a creature or retrieve your grave.\nIf the config restricts Ghostly Shape, the effect will also be canceled if you open a chest, break a block, or push a hostile creature.

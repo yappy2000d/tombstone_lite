@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.2.6
+tombstone.lang.version=3.2.7
 tombstone.grave.grave_simple.name=Tombe Simple
 tombstone.grave.grave_cross.name=Tombe en Croix
 tombstone.grave.grave_normal.name=Tombe Normale
@@ -183,7 +183,7 @@ tombstone.message.log_last_grave=La dernière tombe connue de %s est à la posit
 tombstone.message.log_teleport_success=%s a été téléporté avec succès à la position [name:Ici, x:%s, y:%s, z:%s, dim:%s]
 tombstone.message.knowledge_of_death=Connaissance de la Mort
 tombstone.message.cost=Coûte %d point(s)
-tombstone.message.click_to_upgrade=Clic pour améliorer
+tombstone.message.click_to_upgrade=Cliquer pour apprendre
 tombstone.message.cant_upgrade=Impossible d'améliorer
 tombstone.message.max=Max
 tombstone.message.breathing=Respiration
@@ -513,6 +513,8 @@ tombstone.compendium.death.title=Mourir dans Tombstone
 tombstone.compendium.death.desc=Lors de la mort d'un joueur, une tombe est créée contenant tous les objets perdus.\nLe joueur réapparait avec la Clé de la Tombe permettant de se téléporter si elle est enchantée, ainsi qu'un effet Forme Fantomatique empêchant les créatures de vous attaquer.\nLa quantité d'expérience perdue est définie dans le config et ajustée par l'Avantage Memento Mori de 20%% par niveau permettant d'atteindre 100%%.
 tombstone.compendium.decorative_grave.desc=Les tombes décoratives sont des blocs spéciaux émanant de la fumée la nuit.\nElles peuvent être fabriquées à partir de Marbre Sombre et de n'importe quel Crâne, et peuvent être récoltées avec une pioche ou une pelle.\nVous pouvez les graver avec une Enclume et un Lingot de Fer, et en remplaçant le nom actuel par un nouveau.\nLes tombes décoratives sont parfois hantées par une âme (défini par le config) pouvant servir à enchanter certains objets magiques comme la Clé de la Tombe, les Parchemins et les Tablettes.\nLa chance d'avoir une âme sur une tombe décorative n'est pas influencée si le chunk est non chargé.
 tombstone.compendium.dust_of_vanishing.desc=La Poussière de Disparition est créée à partir de Poussière de Tombe et de Poudre à Canon.\nElle permettant une retraite facile en disparaissant aux yeux des créatures dans une nuage de fumée, pour réapparaître à quelques pas derrière votre ancienne position.
+tombstone.compendium.enchantments.title=Enchantments
+tombstone.compendium.enchantments.desc=§nSoulbound§r: items with this enchantment remain on you when you die\n§nShadow Step§r: you move discreetly reducing the distance to be detected by creatures.\nDistance is affected by day, level of enchantment and whether the player is crouched.\n§nMagic Siphon§r: each hit on a creature has a chance, depending on the level of the enchantment, to steal a magical effect from the creature (potions count as magical effect).
 tombstone.compendium.familiar_receptacle.desc=Ce réceptacle ne peut être confectionné sans une grande Connaissance de la Mort.\nIl permet de capturer l'âme d'un de tes familiers morts et tous ses biens.\nL'âme contenue dans le réceptacle doit ensuite récupérer en absorbant lentement l'essence vitale du porteur.\nL'utilisation la plus courante du réceptacle est de ramener à la vie ce familier en priant avec l'Ânkh.
 tombstone.compendium.fishing_rod_of_misadventure.desc=Cette canne-à-pêche semble porter la poisse en pêchant.\nEnchanter l'objet avec une Âme de Tombe a l'air d'empirer cette malchance.
 tombstone.compendium.ghostly_shape.desc=La Forme Fantomatique est un effet reçu après une mort empêchant les créatures de vous attaquer.\nElle peut être améliorée avec l'Avantage Forme Fantomatique accordant certains effets supplémentaires.\nL'effet est annulé si vous attaquez une créature ou récupérez votre tombe.\nSi le config limite Forme Fantomatique, l'effet sera aussi annulé si vous ouvrez un coffre, brisez un bloc ou poussez une créature hostile.
