@@ -13,8 +13,8 @@
 		"1.14.2-recommended": "3.6.2",
 		"1.13.2-latest": "3.5.2",
 		"1.13.2-recommended": "3.5.2",
-		"1.12.2-latest": "3.6.7",
-		"1.12.2-recommended": "3.6.6",
+		"1.12.2-latest": "3.6.8",
+		"1.12.2-recommended": "3.6.8",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -34,28 +34,11 @@
 	"1.15.1": {
 		"4.2.2": "spanish translation, new perk Tomb Raider",
 		"4.2.1": "fix #122 (tablets can crash server)",
-		"4.2.0": "multiple changes (see changelog)",
-		"4.1.9": "full version",
-		"4.1.8": "first beta for 1.15.1"
+		"4.2.0": "multiple changes (see changelog)"
 	},
 	"1.14.4": {
 		"4.2.1": "spanish translation, new perk Tomb Raider",
-		"4.2.0": "fix for tablet of assistance (since 4.1.9)",
-		"4.1.9": "fix for tablet of assistance, grave item interaction, compat Quark, tags to prevent grave destruction",
-		"4.1.8": "fix lost tablets (#103), compat Hwyla (#107), russian translation & more particles with command",
-		"4.1.7": "command to teleport respawn + tablet, new texture for ghost & guis, fix #97, fix #98",
-		"4.1.6": "multiple changes (see changelog)",
-		"4.1.5": "reworks the guis, scroll of reach and some improvements",
-		"4.1.4": "fix #92 (command tbgui on server), chinese lang (by Aikinitt)",
-		"4.1.3": "update for forge 28.1.0 (required changes)",
-		"4.1.2": "improve teleportation & backup mechanics, tweak shadow step",
-		"4.1.1": "improvements (see changelog), fix #83",
-		"4.1.0": "config in game (see changelog)",
-		"4.0.0": "new grave models (see changelog)",
-		"3.7.5": "update to forge 45 (incompatible changes), compat CosmeticArmorReworked, adapt command tbsiege, solves #75, fix #78",
-		"3.7.4": "support to auto-equip special slots from the mod Curio",
-		"3.7.3": "fix #77 : praying with ankh could disconnect while under the effect Bad Omen",
-		"3.7.2": "first release for 1.14.4 & fix #73"
+		"4.2.0": "fix for tablet of assistance (since 4.1.9)"
 	},
 	"1.14.3": {
 		"3.7.1": "fix #70, #71 & the number of enchantments extracted"
@@ -67,6 +50,7 @@
 		"3.5.2": "improves the command to revive tamed creatures"
 	},
 	"1.12.2": {
+		"3.6.8": "fix #133 (bug introduced in 3.6.7, dying around a grave can break that grave)",
 		"3.6.7": "improve spanish translation, fix Hwyla compat (#124)",
 		"3.6.6": "spanish translation, fix for tablet of assistance (since 3.6.5)",
 		"3.6.5": "compat FuturePack/AdvancedFishing/Quark, fix for tablet of assistance, grave item interaction",
@@ -74,18 +58,7 @@
 		"3.6.3": "fix #103 (lost tablet awakening), fix plate texture on graves and russian lang",
 		"3.6.2": "command to teleport respawn + tablet, new texture for ghost & guis, fix #98",
 		"3.6.1": "multiple changes (see changelog)",
-		"3.6.0": "relook the knowledge gui, scroll of reach & fix nightvision with True Sight/Ghostly Shape",
-		"3.5.9": "compat Cannibalism, chinese lang (by Aikinitt) & config can disable the enchanted grave's key",
-		"3.5.8": "fix #86, tweak shadow step & allow to recover a backup for an offline player",
-		"3.5.7": "some improvements (see changelog)",
-		"3.5.6": "compat for Powersuits, Wings and improve Baubles compat",
-		"3.5.5": "custom trigger for advancements (#68)",
-		"3.5.4": "fix #66 & #67",
-		"3.5.3": "some improvements (see changelog)",
-		"3.5.2": "some improvements and fix #63 (ankh interaction)",
-		"3.5.1": "fix #61, improve the way to pray with the receptacle in offhand & config for creatures not capturable with receptacle",
-		"3.5.0": "new item Familiar Receptacle, command to revive familiars and merge some items with datafixer",
-		"3.4.1": "fix lost tablets can't wake up (since 3.3.4)"
+		"3.6.0": "relook the knowledge gui, scroll of reach & fix nightvision with True Sight/Ghostly Shape"
 	},
 	"1.12.1": {
 		"2.9.9": "only fix and change the grave ground with vanilla texture"
