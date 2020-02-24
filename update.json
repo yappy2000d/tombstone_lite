@@ -33,12 +33,12 @@
 		"4.2.0": "multiple changes (see changelog)"
 	},
 	"1.15.1": {
-		"4.2.3": "tablet of cupidity & improvements about disabled magic items",
 		"4.2.2": "spanish translation, new perk Tomb Raider",
 		"4.2.1": "fix #122 (tablets can crash server)",
 		"4.2.0": "multiple changes (see changelog)"
 	},
 	"1.14.4": {
+		"4.2.2": "tablet of cupidity & improvements about disabled magic items",
 		"4.2.1": "spanish translation, new perk Tomb Raider",
 		"4.2.0": "fix for tablet of assistance (since 4.1.9)"
 	},
