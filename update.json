@@ -5,8 +5,8 @@
 		"1.15.2-recommended": "4.2.1",
 		"1.15.1-latest": "4.2.2",
 		"1.15.1-recommended": "4.2.1",
-		"1.14.4-latest": "4.2.1",
-		"1.14.4-recommended": "4.2.0",
+		"1.14.4-latest": "4.2.2",
+		"1.14.4-recommended": "4.2.2",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
 		"1.14.2-latest": "3.6.2",
@@ -33,6 +33,7 @@
 		"4.2.0": "multiple changes (see changelog)"
 	},
 	"1.15.1": {
+		"4.2.3": "tablet of cupidity & improvements about disabled magic items",
 		"4.2.2": "spanish translation, new perk Tomb Raider",
 		"4.2.1": "fix #122 (tablets can crash server)",
 		"4.2.0": "multiple changes (see changelog)"
