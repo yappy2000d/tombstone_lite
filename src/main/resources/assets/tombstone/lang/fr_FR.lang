@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.0
+tombstone.lang.version=3.3.1
 tombstone.grave.grave_simple.name=Tombe Simple
 tombstone.grave.grave_cross.name=Tombe en Croix
 tombstone.grave.grave_normal.name=Tombe Normale
@@ -171,8 +171,8 @@ tombstone.message.recovery.no_file=Le fichier "%s" n'a pas été trouvé
 tombstone.message.no_save_to_restore=Il n'y a aucune sauvegarde à restaurer
 tombstone.message.disenchantment.success=Le livre a dépouillé l'objet de tous ses enchantements
 tombstone.message.disenchantment.failed=Tu as besoin d'un objet enchanté dans ta main gauche
-tombstone.message.earn_knowledge=%s a gagné %s point(s) en connaissance de la mort
-tombstone.message.lose_knowledge=%s lost %s points en connaissance de la mort
+tombstone.message.earn_knowledge=Ta Connaissance de la Mort a augmenté (+%s)
+tombstone.message.lose_knowledge=Ta Connaissance de la Mort a diminué (-%s)
 tombstone.message.last_grave=Dernière Tombe
 tombstone.message.death_canceled=Un mod a annulé l'évènement de mort du joueur %s
 tombstone.message.drop_canceled=Un mod a annulé les drops du joueur %s
@@ -196,7 +196,7 @@ tombstone.message.day=Jours : %d
 tombstone.message.you=Tu
 tombstone.message.cant_pray=Aucune tombe décorative pour prier
 tombstone.message.exorcism=Le zombie villageois est imprégné par la magie de l'Ânkh
-tombstone.message.access_gui=Tu as gagné %s point(s) à dépenser. Clic %s si tu veux accéder au panneau
+tombstone.message.access_gui=Tu as gagné %s niveau(x). Clic %s si tu veux accéder au panneau pour améliorer un des tes avantages.
 tombstone.message.perk_reset.success=Tes avantages ont été réinitialisés
 tombstone.message.perk_reset.failed=Tu n'as pas attribué aucun avantage, ils ne peuvent donc pas être réinitialisés
 tombstone.message.perk_reset.in_cooldown=Tu dois attendre %sm%ss avant de pouvoir réinitialiser tes Avantages

@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.0
+tombstone.lang.version=3.3.1
 tombstone.grave.grave_simple.name=Simple Grave
 tombstone.grave.grave_cross.name=Cross Grave
 tombstone.grave.grave_normal.name=Normal Grave
@@ -171,8 +171,8 @@ tombstone.message.recovery.no_file=The file "%s" does not exist
 tombstone.message.no_save_to_restore=There's no save to restore
 tombstone.message.disenchantment.success=The book has stripped the item of all its enchantments
 tombstone.message.disenchantment.failed=You need an enchanted item in your offhand
-tombstone.message.earn_knowledge=%s earned %s point(s) in the knowledge of death
-tombstone.message.lose_knowledge=%s lost %s points in the knowledge of death
+tombstone.message.earn_knowledge=Your knowledge of death increased (+%s)
+tombstone.message.lose_knowledge=Your knowledge of death decreased (-%s)
 tombstone.message.last_grave=Last Grave
 tombstone.message.death_canceled=The death event of the player %s was cancelled by another mod
 tombstone.message.drop_canceled=The drop event of the player %s was cancelled by another mod
@@ -196,7 +196,7 @@ tombstone.message.day=Days: %d
 tombstone.message.you=You
 tombstone.message.cant_pray=There are no decorative graves nearby
 tombstone.message.exorcism=The zombie villager is imbued with the magic of the Ânkh
-tombstone.message.access_gui=You earned %s point(s). Click %s if you want to access the GUI
+tombstone.message.access_gui=You earned %s level(s). Click %s if you want to access the GUI to increase one of your perk.
 tombstone.message.perk_reset.success=Your perks have been reset
 tombstone.message.perk_reset.failed=You have not assigned any perks, so they cannot be reset
 tombstone.message.perk_reset.in_cooldown=You have to wait %sm%ss before being able to reset your perks

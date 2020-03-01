@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.0
+tombstone.lang.version=3.3.1
 tombstone.grave.grave_simple.name=Tumba Simple
 tombstone.grave.grave_cross.name=Tumba de Cruz
 tombstone.grave.grave_normal.name=Tumba Normal
@@ -171,8 +171,8 @@ tombstone.message.recovery.no_file=El archivo "%s" no existe
 tombstone.message.no_save_to_restore=No tienes ningun guardado para ser restaurar
 tombstone.message.disenchantment.success=El libro ha quitado uno o varios encantamientos de su objeto
 tombstone.message.disenchantment.failed=Necesitas un objeto encantado en tu mano
-tombstone.message.earn_knowledge=%s Tienes %s punto(s) en el conocimiento de la muerte
-tombstone.message.lose_knowledge=%s Perdiste %s punto(s) en el conocimiento de la muerte
+tombstone.message.earn_knowledge=Tu conocimiento de la muerte ha aumentado (+%s)
+tombstone.message.lose_knowledge=Tu conocimiento de la muerte ha disminuido (-%s)
 tombstone.message.last_grave=La última tumba
 tombstone.message.death_canceled=El evento de la muerte del jugador. %s fue cancelado por otro mod
 tombstone.message.drop_canceled=El evento de caída del jugador. %s podria ser cancelado por otro mod
@@ -196,7 +196,7 @@ tombstone.message.day=Dias: %d
 tombstone.message.you=Tu
 tombstone.message.cant_pray=No hay tumbas decorativas cerca
 tombstone.message.exorcism=El aldeano zombie está asombrado de la magia del Ânkh
-tombstone.message.access_gui=Usted ganó %s punto(s). Clic %s si quieres acceder al menu de opciones
+tombstone.message.access_gui=Usted ganó %s nivele(s). Clic %s si quieres acceder al menu de opciones para agregar privilegios.
 tombstone.message.perk_reset.success=Tus ventajas se han restablecido
 tombstone.message.perk_reset.failed=No ha asignado ningún beneficio, por lo que no se pueden restablecer
 tombstone.message.perk_reset.in_cooldown=Tienes que esperar %sm%ss antes de poder restablecer tus ventajas

@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.0
+tombstone.lang.version=3.3.1
 tombstone.grave.grave_simple.name=Простая могила
 tombstone.grave.grave_cross.name=Могила с крестом
 tombstone.grave.grave_normal.name=Обычная могила
@@ -171,8 +171,8 @@ tombstone.message.recovery.no_file=Файл "%s " не существует
 tombstone.message.no_save_to_restore=There's no save to restore
 tombstone.message.disenchantment.success=Книга лишила предмет всех его чар
 tombstone.message.disenchantment.failed=Вам нужен зачарованный предмет в вашей руке
-tombstone.message.earn_knowledge=%s заработал %s едениц смерти
-tombstone.message.lose_knowledge=%s потерял %s единиц смерти
+tombstone.message.earn_knowledge=Ваше Знание смерти увеличилось (+%s)
+tombstone.message.lose_knowledge=Ваше Знание смерти уменьшилось (-%s)
 tombstone.message.last_grave=Последняя могила
 tombstone.message.death_canceled=Смерть игрока %s была отменена другим модом
 tombstone.message.drop_canceled=Сброс игрока %s был отменён другим модом
@@ -196,7 +196,7 @@ tombstone.message.day=Дней: %d
 tombstone.message.you=Вы
 tombstone.message.cant_pray=Рядом нет декоративных могил
 tombstone.message.exorcism=Зомби житель пропитан магией Ânkh (что бы это не значило)
-tombstone.message.access_gui=Вы заработали %s баллов. Нажмите %s, чтобы получить доступ к GUI
+tombstone.message.access_gui=Вы заработали %s. Если вы хотите получить доступ к GUI для добавления привилегий, нажмите %s.
 tombstone.message.perk_reset.success=Ваши льготы были сброшены
 tombstone.message.perk_reset.failed=Вы не назначили никаких льгот, поэтому они не могут быть сбросить
 tombstone.message.perk_reset.in_cooldown=You have to wait %sm%ss before being able to reset your perks
