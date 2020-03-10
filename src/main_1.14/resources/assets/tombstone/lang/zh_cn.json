@@ -1,5 +1,5 @@
 {
-  "tombstone.lang.version": "1.3.2",
+  "tombstone.lang.version": "1.3.3",
   "tombstone.grave.grave_simple": "简易的坟墓",
   "tombstone.grave.grave_normal": "普通的坟墓",
   "tombstone.grave.grave_cross": "十字架坟墓",
@@ -462,6 +462,7 @@
   "tombstone.config.enable_enchantment_soulbound.tooltip": "启用附魔：灵魂绑定",
   "tombstone.config.enable_enchantment_magic_siphon.tooltip": "启用附魔：吸功大法",
   "tombstone.config.enable_enchantment_plague_bringer.tooltip": "Enables the enchantment Plague Bringer",
+  "tombstone.config.nerf_plague_bringer.tooltip": "The wearer is also affected by the bad effect if his alignment is not bad",
   "tombstone.config_cat.recovery": "备份",
   "tombstone.config_cat.recovery.tooltip": "这个选项与玩家的恢复命令和自动备份有关",
   "tombstone.config.recovery_player_enable.tooltip": "启用自动备份玩家数据",
@@ -508,7 +509,7 @@
   "tombstone.compendium.decorative_grave.desc": "装饰性坟墓是会在夜间产生烟雾效果的特殊方块.\n它们可以用暗黑大理石和任意头颅合成得到,也可以用稿子和铲子进行挖掘.\n你可以用铁砧加上一个铁锭去雕刻它们，它们上面的名字会变成你在铁砧所修改的名字.\n装饰性坟墓会在一段时间后自动生成灵魂 (取决于配置文件) 灵魂可以用来给某些可以附魔的物品附魔.\n如果检测功能没有被加载,装饰性坟墓上出现的灵魂几率不会受到任何影响.",
   "tombstone.compendium.dust_of_vanishing.desc": "消逝的尘埃可以在工作台上用坟墓的尘埃和火药合成得到.\n它可以产生一些密度很高的烟雾,让你从其它生物严重消逝,并且将你向后移动几步.",
   "tombstone.compendium.enchantments.title": "附魔",
-  "tombstone.compendium.enchantments.desc": "§n灵魂绑定§r: 附有此种魔力的物品可在你死亡后保留\n§n遮影步§r: 减少生物探测到你的距离.\n距离受 是否是白天，附魔等级，和玩家是否是蹲下的状态 影响.\n§n吸功大法§r: 每次攻击生物都有机率, 取决于附魔等级, 从生物身上偷取魔法效果(药水效果视为魔法效果).\n§nPlague Bringer§r: each hit on a creature has a chance to apply a random harmful effect. This enchantment is incompatible with Magic Siphon.",
+  "tombstone.compendium.enchantments.desc": "§n灵魂绑定§r: 附有此种魔力的物品可在你死亡后保留\n§n遮影步§r: 减少生物探测到你的距离.\n距离受 是否是白天，附魔等级，和玩家是否是蹲下的状态 影响.\n§n吸功大法§r: 每次攻击生物都有机率, 取决于附魔等级, 从生物身上偷取魔法效果(药水效果视为魔法效果).\n§nPlague Bringer§r: each hit on a creature has a chance to apply a random harmful effect. The wearer is also affects by this effect if his alignment is not bad(configurable). This enchantment is incompatible with Magic Siphon.",
   "tombstone.compendium.familiar_receptacle.desc": "想合成这个容器必须要对死亡知识有更深层次的了解.\n它可以捕获你死去的伙伴的灵魂和它身上的资源.\n然后,容器中的灵魂必须通过缓慢吸收持有者的生命来进行恢复.\n当容器被充满后可以通过安卡的祈祷使这个死去的伙伴复活.",
   "tombstone.compendium.fishing_rod_of_misadventure.desc": "使用这根鱼竿钓鱼似乎预示着一场灾难.\n使用坟墓的尘埃附魔这个物品似乎会恶化这种厄运.",
   "tombstone.compendium.ghostly_shape.desc": "幽灵形态是一种死亡后获得的效果,它可以防止生物攻击你.\n你可以通过提高该死亡知识的技能以额外增加一些效果.\n当你攻击一个生物或找回你的坟墓时,这个效果会被取消.\n如果在配置文件中进行了修改限制了这个效果, 那么你会在打开一个箱子,打破一个方块,或推动一个敌对性生物,后取消该效果.",
