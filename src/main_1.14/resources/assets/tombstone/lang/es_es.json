@@ -1,5 +1,5 @@
 {
-  "tombstone.lang.version": "1.3.4",
+  "tombstone.lang.version": "1.3.5",
   "tombstone.grave.grave_simple": "Tumba Simple",
   "tombstone.grave.grave_normal": "Tumba Normal",
   "tombstone.grave.grave_cross": "Tumba de Cruz",
@@ -379,6 +379,8 @@
   "tombstone.advancement.eat_lollipop.desc": "Has probado una paleta de Halloween",
   "tombstone.advancement.expert_tasting.title": "Experto en Saborear",
   "tombstone.advancement.expert_tasting.desc": "Has probado todas las paletas de Halloween",
+  "tombstone.advancement.pass_april_fool.title": "Like a fish in water [REWARD]",
+  "tombstone.advancement.pass_april_fool.desc": "April Fool is over",
   "tombstone.config_cat.general": "General",
   "tombstone.config_cat.general.tooltip": "Opciones Ancestrales",
   "tombstone.config.handle_player_death.tooltip": "Ya sea para manejar la muerte del jugador",

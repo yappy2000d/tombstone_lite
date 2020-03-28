@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.4
+tombstone.lang.version=3.3.5
 tombstone.grave.grave_simple.name=Tombe Simple
 tombstone.grave.grave_cross.name=Tombe en Croix
 tombstone.grave.grave_normal.name=Tombe Normale
@@ -453,6 +453,8 @@ tombstone.advancement.capture_soul.title=Prison d'Âme
 tombstone.advancement.capture_soul.desc=Tu as capturé une âme dans un réceptacle
 tombstone.advancement.revive_familiar.title=Lié à jamais
 tombstone.advancement.revive_familiar.desc=Tu as ramené à la vie un de tes familiers
+tombstone.advancement.pass_april_fool.title=Comme un poisson dans l'eau [REWARD]
+tombstone.advancement.pass_april_fool.desc=Poisson d'Avril est passé
 tombstone.potion.ghostly_shape.name=Forme Fantomatique
 tombstone.potion.preservation.name=Préservation
 tombstone.potion.unstable_intangibleness.name=Intangibilité Instable

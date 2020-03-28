@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.4
+tombstone.lang.version=3.3.5
 tombstone.grave.grave_simple.name=简易的坟墓
 tombstone.grave.grave_cross.name=十字架坟墓
 tombstone.grave.grave_normal.name=普通的坟墓
@@ -453,6 +453,8 @@ tombstone.advancement.capture_soul.title=灵魂监狱
 tombstone.advancement.capture_soul.desc=你在你的容器中囚禁了一个灵魂
 tombstone.advancement.revive_familiar.title=永远在一起
 tombstone.advancement.revive_familiar.desc=你让你的伙伴复活了
+tombstone.advancement.pass_april_fool.title=Like a fish in water [REWARD]
+tombstone.advancement.pass_april_fool.desc=April Fool is over
 tombstone.potion.ghostly_shape.name=幽灵形态
 tombstone.potion.preservation.name=保留
 tombstone.potion.unstable_intangibleness.name=不稳定的混沌状态

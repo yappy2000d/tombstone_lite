@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.4
+tombstone.lang.version=3.3.5
 tombstone.grave.grave_simple.name=Простая могила
 tombstone.grave.grave_cross.name=Могила с крестом
 tombstone.grave.grave_normal.name=Обычная могила
@@ -453,6 +453,8 @@ tombstone.advancement.capture_soul.title=Soul Prison
 tombstone.advancement.capture_soul.desc=You captured a soul in a receptacle
 tombstone.advancement.revive_familiar.title=Bound Forever
 tombstone.advancement.revive_familiar.desc=You revived one of your familiars
+tombstone.advancement.pass_april_fool.title=Like a fish in water [REWARD]
+tombstone.advancement.pass_april_fool.desc=April Fool is over
 tombstone.potion.ghostly_shape.name=Призрачные Фигуры
 tombstone.potion.preservation.name=Сохранение
 tombstone.potion.unstable_intangibleness.name=Нестабильная Неосязаемость

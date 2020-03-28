@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.4
+tombstone.lang.version=3.3.5
 tombstone.grave.grave_simple.name=Tumba Simple
 tombstone.grave.grave_cross.name=Tumba de Cruz
 tombstone.grave.grave_normal.name=Tumba Normal
@@ -453,6 +453,8 @@ tombstone.advancement.capture_soul.title=Un alma prisiónera
 tombstone.advancement.capture_soul.desc=Capturaste un alma en un receptáculo
 tombstone.advancement.revive_familiar.title=Revivirte si o si
 tombstone.advancement.revive_familiar.desc=Reviviste a uno de tus familiares
+tombstone.advancement.pass_april_fool.title=Like a fish in water [REWARD]
+tombstone.advancement.pass_april_fool.desc=April Fool is over
 tombstone.potion.ghostly_shape.name=Forma fantasmal
 tombstone.potion.preservation.name=Preservación
 tombstone.potion.unstable_intangibleness.name=Intangibilidad
