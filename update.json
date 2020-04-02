@@ -5,7 +5,7 @@
 		"1.15.2-recommended": "4.3.1",
 		"1.15.1-latest": "4.2.2",
 		"1.15.1-recommended": "4.2.1",
-		"1.14.4-latest": "4.3.1",
+		"1.14.4-latest": "4.3.2",
 		"1.14.4-recommended": "4.3.1",
 		"1.14.3-latest": "3.7.1",
 		"1.14.3-recommended": "3.7.1",
@@ -43,6 +43,7 @@
 		"4.2.0": "multiple changes (see changelog)"
 	},
 	"1.14.4": {
+		"4.3.2": "compat druidcraft, command tbteleportbiome, tbrequestteleport & new configs",
 		"4.3.1": "fishing & open water, config options about the fog",
 		"4.3.0": "new config options, improvements & new grave model",
 		"4.2.4": "integration top, enchantment Plague Bringer and improvements",
