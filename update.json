@@ -1,7 +1,7 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone",
 	"promos": {
-		"1.15.2-latest": "4.3.2",
+		"1.15.2-latest": "4.3.3",
 		"1.15.2-recommended": "4.3.1",
 		"1.15.1-latest": "4.2.2",
 		"1.15.1-recommended": "4.2.1",
@@ -27,6 +27,7 @@
 		"1.8.9-recommended": "1.4.1"
 	},
 	"1.15.2": {
+		"4.3.3": "command tbbind, tbteleportdeath & config for fishing in open water",
 		"4.3.2": "command tbteleportbiome, tbrequestteleport & new configs",
 		"4.3.1": "fishing & open water, config options about the fog",
 		"4.3.0": "new config options, improvements & new grave model",
