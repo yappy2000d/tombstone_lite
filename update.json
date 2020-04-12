@@ -13,8 +13,8 @@
 		"1.14.2-recommended": "3.6.2",
 		"1.13.2-latest": "3.5.2",
 		"1.13.2-recommended": "3.5.2",
-		"1.12.2-latest": "3.7.2",
-		"1.12.2-recommended": "3.7.2",
+		"1.12.2-latest": "3.7.3",
+		"1.12.2-recommended": "3.7.3",
 		"1.12.1-latest": "2.9.9",
 		"1.12.1-recommended": "2.9.9",
 		"1.11.2-latest": "2.9.0.1",
@@ -64,6 +64,7 @@
 		"3.5.2": "improves the command to revive tamed creatures"
 	},
 	"1.12.2": {
+		"3.7.3": "tbteleportdeath, tbbind, improve tablet of cupidity, compat forgeessentials",
 		"3.7.2": "tbrequestteleport, fix #105, new configs",
 		"3.7.1": "config options about the fog",
 		"3.7.0": "new config options & improvements",
