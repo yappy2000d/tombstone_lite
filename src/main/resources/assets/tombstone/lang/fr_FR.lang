@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.6
+tombstone.lang.version=3.3.7
 tombstone.grave.grave_simple.name=Tombe Simple
 tombstone.grave.grave_cross.name=Tombe en Croix
 tombstone.grave.grave_normal.name=Tombe Normale
@@ -219,6 +219,7 @@ tombstone.message.familiar_of=Le familier de %s
 tombstone.message.empty_receptacle=Le réceptacle dans votre main ne contient aucune âme
 tombstone.message.cant_revive_familiar=%s semble être perdu pour toujours dans les limbes
 tombstone.message.tablet_search.failed=La tablette semble s'être affaiblie sans aucun effet
+tombstone.message.bind_location=Tu es désormais lié à cet endroit
 tombstone.death.beyond_the_grave=Ton âme s'est affaiblie
 # Général
 tombstone.config_cat.general=Général
@@ -491,6 +492,8 @@ tombstone.command.tbsiege.usage=Lance un siège de village dans la dimension cho
 tombstone.command.tbrevivefamiliar.usage=Revives the last dead familiar of a player\n/tbrevivefamiliar <joueur>
 tombstone.command.tbacceptteleport.usage=Cette commande ne devrait pas être utilisée manuellement
 tombstone.command.tbrequestteleport.usage=Envoie une demande d'autorisation à vous téléporter auprès d'un autre joueur\n/tbrequestteleport <joueur>
+tombstone.command.tbteleportdeath.usage=Téléporte à l'emplacement de ta dernière mort\n/tbteleportdeath
+tombstone.command.tbbind.usage=Lie ton emplacement actuel ou te téléporte à un des 5 emplacements possibles\n/tbbind <show|set [1-5]|teleport [1-5]>
 tombstone.command.exception.dead_entity=La commande ne peut être utilisée sur une entité morte
 tombstone.command.exception.spectator_player=La commande ne peut être utilisée sur un joueur spectateur
 tombstone.command.exception.no_village=Aucun village n'a été trouvé
@@ -511,6 +514,9 @@ tombstone.command.exception.difficulty_peaceful=La commande ne peut pas être ut
 tombstone.command.exception.denied_dimension=La commande n'est pas autorisée dans cette dimension
 tombstone.command.exception.unloaded_dimension=La dimension n'est pas chargée
 tombstone.command.exception.only_at_night=La commande ne peut être utilisée que pendant la nuit
+tombstone.command.exception.existing_bind_location=Tu es déjà lié à ce lieu
+tombstone.command.exception.no_bind_location=Tu n'as aucun lieu lié
+tombstone.command.exception.no_death_location=Tu n'as aucun précédent lieu de mort
 tombstone.perk.bone_collector.name=Collecteur d'Os
 tombstone.perk.bone_collector.desc=de trouver des objets spéciaux sur les morts-vivants
 tombstone.perk.grave_key.name=Geôlier

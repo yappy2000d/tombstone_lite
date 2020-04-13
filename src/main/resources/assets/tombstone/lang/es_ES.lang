@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.6
+tombstone.lang.version=3.3.7
 tombstone.grave.grave_simple.name=Tumba Simple
 tombstone.grave.grave_cross.name=Tumba de Cruz
 tombstone.grave.grave_normal.name=Tumba Normal
@@ -219,6 +219,7 @@ tombstone.message.familiar_of=El familiar de %s
 tombstone.message.empty_receptacle=El receptáculo en tu mano libre no contiene alma
 tombstone.message.cant_revive_familiar=%s parece estar perdido para siempre en el limbo
 tombstone.message.tablet_search.failed=The tablet seems to have weakened without any effect
+tombstone.message.bind_location=You are bound to this location
 tombstone.death.beyond_the_grave=Tu alma se ha debilitado
 # General
 tombstone.config_cat.general=General
@@ -491,6 +492,8 @@ tombstone.command.tbsiege.usage=Permite lanza una orda de zombies a la aldea act
 tombstone.command.tbrevivefamiliar.usage=Revive al último familiar muerto de un jugador\n/tbrevivefamiliar <Jugador>
 tombstone.command.tbacceptteleport.usage=This command shouldn't be called manually
 tombstone.command.tbrequestteleport.usage=Send authorization request to teleport to another player\n/tbrequestteleport <player>
+tombstone.command.tbteleportdeath.usage=Teleports to your last death location\n/tbteleportdeath
+tombstone.command.tbbind.usage=Binds your current location or teleport to one of 5 possible bound locations\n/tbbind <show|set [1-5]|teleport [1-5]>
 tombstone.command.exception.dead_entity=El comando no se puede usar en una entidad muerta
 tombstone.command.exception.spectator_player=El comando no se puede usar en un jugador que esta de espectador.
 tombstone.command.exception.no_village=No se encontró pueblo
@@ -511,6 +514,9 @@ tombstone.command.exception.difficulty_peaceful=El comando no se puede usar en d
 tombstone.command.exception.denied_dimension=El comando no está permitido en esta dimensión
 tombstone.command.exception.unloaded_dimension=La dimensión no está cargada.
 tombstone.command.exception.only_at_night=El comando solo se puede usar durante la noche
+tombstone.command.exception.existing_bind_location=You have already bound this location
+tombstone.command.exception.no_bind_location=You have no bound location
+tombstone.command.exception.no_death_location=You don't have any previous death location
 tombstone.perk.bone_collector.name=Coleccionista de huesos
 tombstone.perk.bone_collector.desc=De tener la probabilidad de encontrar polvos especiales en los enemigos
 tombstone.perk.grave_key.name=Carcel

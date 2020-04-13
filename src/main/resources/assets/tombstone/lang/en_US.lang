@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.6
+tombstone.lang.version=3.3.7
 tombstone.grave.grave_simple.name=Simple Grave
 tombstone.grave.grave_cross.name=Cross Grave
 tombstone.grave.grave_normal.name=Normal Grave
@@ -219,6 +219,7 @@ tombstone.message.familiar_of=The familiar of %s
 tombstone.message.empty_receptacle=The receptacle in your offhand contains no soul
 tombstone.message.cant_revive_familiar=%s seems to be lost forever in limbo
 tombstone.message.tablet_search.failed=The tablet seems to have weakened without any effect
+tombstone.message.bind_location=You are bound to this location
 tombstone.death.beyond_the_grave=Your soul have weaken
 # General
 tombstone.config_cat.general=General
@@ -491,6 +492,8 @@ tombstone.command.tbsiege.usage=Launches a village siege in the chosen dimension
 tombstone.command.tbrevivefamiliar.usage=Revives the last dead familiar of a player\n/tbrevivefamiliar <player>
 tombstone.command.tbacceptteleport.usage=This command shouldn't be called manually
 tombstone.command.tbrequestteleport.usage=Send authorization request to teleport to another player\n/tbrequestteleport <player>
+tombstone.command.tbteleportdeath.usage=Teleports to your last death location\n/tbteleportdeath
+tombstone.command.tbbind.usage=Binds your current location or teleport to one of 5 possible bound locations\n/tbbind <show|set [1-5]|teleport [1-5]>
 tombstone.command.exception.dead_entity=The command can't be used on a dead entity
 tombstone.command.exception.spectator_player=The command can't be used on a spectator player
 tombstone.command.exception.no_village=No village was found
@@ -511,6 +514,9 @@ tombstone.command.exception.difficulty_peaceful=The command can't be used in pea
 tombstone.command.exception.denied_dimension=The command is not allowed in this dimension
 tombstone.command.exception.unloaded_dimension=The dimension is not loaded
 tombstone.command.exception.only_at_night=The command can only be used during night
+tombstone.command.exception.existing_bind_location=You have already bound this location
+tombstone.command.exception.no_bind_location=You have no bound location
+tombstone.command.exception.no_death_location=You don't have any previous death location
 tombstone.perk.bone_collector.name=Bone Collector
 tombstone.perk.bone_collector.desc=chance to find special drops on the undead
 tombstone.perk.grave_key.name=Jailer

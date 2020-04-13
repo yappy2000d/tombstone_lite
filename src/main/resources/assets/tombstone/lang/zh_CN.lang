@@ -1,5 +1,5 @@
 #PARSE_ESCAPES
-tombstone.lang.version=3.3.6
+tombstone.lang.version=3.3.7
 tombstone.grave.grave_simple.name=简易的坟墓
 tombstone.grave.grave_cross.name=十字架坟墓
 tombstone.grave.grave_normal.name=普通的坟墓
@@ -219,6 +219,7 @@ tombstone.message.familiar_of=熟悉的 %s
 tombstone.message.empty_receptacle=你副手的容器里没有任何灵魂
 tombstone.message.cant_revive_familiar=%s 似乎永远迷失了
 tombstone.message.tablet_search.failed=石板看起来衰落了，没有任何效果
+tombstone.message.bind_location=You are bound to this location
 tombstone.death.beyond_the_grave=你的灵魂衰弱了
 # General
 tombstone.config_cat.general=普遍的
@@ -491,6 +492,8 @@ tombstone.command.tbsiege.usage=在你所选择的维度或你当前维度发动
 tombstone.command.tbrevivefamiliar.usage=复活玩家最后一个死去的伙伴\n/tbrevivefamiliar <player>
 tombstone.command.tbacceptteleport.usage=This command shouldn't be called manually
 tombstone.command.tbrequestteleport.usage=Send authorization request to teleport to another player\n/tbrequestteleport <player>
+tombstone.command.tbteleportdeath.usage=Teleports to your last death location\n/tbteleportdeath
+tombstone.command.tbbind.usage=Binds your current location or teleport to one of 5 possible bound locations\n/tbbind <show|set [1-5]|teleport [1-5]>
 tombstone.command.exception.dead_entity=不能用在已死亡的实体上
 tombstone.command.exception.spectator_player=不能用在处于观察模式的玩家身上
 tombstone.command.exception.no_village=没有找到村庄
@@ -511,6 +514,9 @@ tombstone.command.exception.difficulty_peaceful=这个指令不能在和平模�
 tombstone.command.exception.denied_dimension=这个指令不允许在这个维度下使用
 tombstone.command.exception.unloaded_dimension=这个维度没有被加载
 tombstone.command.exception.only_at_night=这个命令只能在夜间使用
+tombstone.command.exception.existing_bind_location=You have already bound this location
+tombstone.command.exception.no_bind_location=You have no bound location
+tombstone.command.exception.no_death_location=You don't have any previous death location
 tombstone.perk.bone_collector.name=集骨者
 tombstone.perk.bone_collector.desc=的机率从亡灵生物上获得特殊的掉落物
 tombstone.perk.grave_key.name=狱监
